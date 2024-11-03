@@ -2,7 +2,6 @@
   <div
     class="bg-website fixed inset-x-0 top-0 z-50 flex items-center justify-between p-8"
   >
-    <!-- Logo / Placeholder -->
     <div class="logo-main">
       <img
         v-if="!showMenu"
@@ -10,10 +9,8 @@
         alt="Logo mobile"
       />
       <div v-else class="w-12 h-12"></div>
-      <!-- Placeholder met dezelfde afmetingen als het logo -->
     </div>
 
-    <!-- Hamburger / Close Button -->
     <div class="cursor-pointer" @click="toggleMenu">
       <img
         v-if="!showMenu"
@@ -24,7 +21,6 @@
     </div>
   </div>
 
-  <!-- Mobile Menu - conditioneel weergegeven -->
   <div
     v-if="showMenu"
     class="fixed inset-0 bg-website z-40 flex flex-col items-center justify-center"

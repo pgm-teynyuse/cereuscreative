@@ -27,7 +27,7 @@
     </nav>
 
     <!-- Alternatief logo onder de menu-items -->
-    <div class="mt-32">
+    <div class="absolute bottom-10">
       <img src="../assets/images/logo-mobile-menu.svg" alt="Alternative Logo" />
     </div>
   </div>
