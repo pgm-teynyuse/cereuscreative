@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-website;
+  padding-top: 8rem;
+  margin: 2rem;
+}
+
+.active {
+  font-weight: 600;
+  font-style: italic;
+}
