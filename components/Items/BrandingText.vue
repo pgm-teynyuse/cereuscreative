@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col h-svh relative lg:p-20">
+    <div class="flex flex-col relative lg:p-20">
         <div class="p-10 mb-52  relative">
             <div class="flex flex-col">
                 <h2 class="text-3xl lg:text-4xl text-maingreen font-semibold italic">Branding</h2>
