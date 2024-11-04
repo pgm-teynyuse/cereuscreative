@@ -1,21 +1,5 @@
 module.exports = {
   theme: {
-    screens: {
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-    },
     extend: {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
@@ -27,6 +11,7 @@ module.exports = {
         maingreen: 'rgba(124, 132, 94, 1)',
         darkgreen: 'rgba(101, 109, 74, 1)',
         lightgreen: 'rgba(221, 229, 182, 1)',
+        middlegreen: 'rgba(163, 177, 138, 1)',
       },
       variants: {},
       plugins: [],
