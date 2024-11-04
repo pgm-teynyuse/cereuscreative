@@ -11,7 +11,7 @@
                     <p class="bg-darkgreen flex justify-center items-center w-10 h-10 text-3xl font-bold text-middlegreen rounded-full ">1</p>
                     <h3 class="text-darkgreen ml-2 font-bold text-2xl">Kennismaking & Analyse</h3>
                 </div>
-                <p class="ml-5 text-xl mt-2 mb-2 border-l-[5px] border-darkgreen pl-5 text-darkgreen">
+                <p class="ml-5 text-xl mt-2 mb-2 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen">
                     We starten met een kennismaking om jouw doelen, visie en doelgroep te begrijpen. Dit vormt de basis voor een sterk ontwerp en een effectieve strategie.
                 </p>
             </div>
@@ -20,7 +20,7 @@
                     <p class="bg-darkgreen flex justify-center items-center w-10 h-10 text-3xl font-bold text-middlegreen rounded-full ">2</p>
                     <h3 class="text-darkgreen ml-2 font-bold text-2xl">Kennismaking & Analyse</h3>
                 </div>
-                <p class="ml-5 mt-2 text-xl mb-2 border-l-[5px] border-darkgreen pl-5 text-darkgreen">
+                <p class="ml-5 mt-2 text-xl mb-2 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen">
                     We starten met een kennismaking om jouw doelen, visie en doelgroep te begrijpen. Dit vormt de basis voor een sterk ontwerp en een effectieve strategie.
                 </p>
             </div>
@@ -29,7 +29,7 @@
                     <p class="bg-darkgreen flex justify-center items-center w-10 h-10 text-3xl font-bold text-middlegreen rounded-full ">3</p>
                     <h3 class="text-darkgreen font-bold ml-2 text-2xl">Kennismaking & Analyse</h3>
                 </div>
-                <p class="ml-5 mt-2 text-xl pl-5 text-darkgreen">
+                <p class="ml-5 mt-2 text-xl pl-[25px] text-darkgreen">
                     We starten met een kennismaking om jouw doelen, visie en doelgroep te begrijpen. Dit vormt de basis voor een sterk ontwerp en een effectieve strategie.
                 </p>
             </div>
@@ -43,7 +43,7 @@
                     <p class="bg-darkgreen flex justify-center items-center w-10 h-10 text-3xl font-bold text-middlegreen rounded-full ">5</p>
                     <h3 class="text-darkgreen ml-2  font-bold text-2xl">Kennismaking & Analyse</h3>
                 </div>
-                <p class="ml-5 mt-2 text-xl mb-2 border-l-[5px] border-darkgreen pl-5 text-darkgreen">
+                <p class="ml-5 mt-2 text-xl mb-2 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen">
                     We starten met een kennismaking om jouw doelen, visie en doelgroep te begrijpen. Dit vormt de basis voor een sterk ontwerp en een effectieve strategie.
                 </p>
             </div>
@@ -52,7 +52,7 @@
                     <p class="bg-darkgreen flex justify-center items-center w-10 h-10 text-3xl font-bold text-middlegreen rounded-full ">4</p>
                     <h3 class="text-darkgreen ml-2 font-bold text-2xl">Kennismaking & Analyse</h3>
                 </div>
-                <p class="ml-5 mt-2 text-xl  border-darkgreen pl-5 text-darkgreen">
+                <p class="ml-5 mt-2 text-xl  border-darkgreen pl-[25px] text-darkgreen">
                     We starten met een kennismaking om jouw doelen, visie en doelgroep te begrijpen. Dit vormt de basis voor een sterk ontwerp en een effectieve strategie.
                 </p>
             </div>
