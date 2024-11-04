@@ -1,5 +1,5 @@
 <template>
-  <div class="flex md:hidden flex-col items-center">
+  <div class="flex md:hidden z-50 flex-col items-center">
     <!-- Navigatie -->
     <nav class="navbar">
       <ul class="text-3xl text-center text-maingreen uppercase">

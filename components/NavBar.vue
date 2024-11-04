@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mr-10 z-50">
     <nav class="navbar">
       <ul class="flex space-x-4 text-lg text-maingreen">
         <li>
