@@ -24,11 +24,13 @@
         </li>
       </ul>
     </nav>
-          <NuxtLink to="/">
-    <div class="absolute bottom-10">
-
-              <img src="../assets/images/logo-mobile-menu.svg" alt="Alternative Logo" />
-    </div>
+    <NuxtLink to="/">
+      <div class="absolute bottom-10">
+        <img
+          src="../assets/images/logo-mobile-menu.svg"
+          alt="Alternative Logo"
+        />
+      </div>
     </NuxtLink>
   </div>
 </template>

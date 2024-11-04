@@ -2,7 +2,7 @@
   <div>
     <HomeHeader />
     <BrandingText />
-    <ServicesHeader/>
+    <ServicesHeader />
     <StepsHome />
   </div>
 </template>
