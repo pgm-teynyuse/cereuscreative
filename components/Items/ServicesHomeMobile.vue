@@ -1,6 +1,5 @@
 <template>
-    <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 sm:mt-10">
-        <!-- Eerste Kaartje -->
+    <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 p-10 sm:mt-10">
         <div class="text-maingreen gap-2 items-start flex col-span-1">
             <img src="../../assets/images/wordpress-icon-mobile.svg" alt="">
             <div>
@@ -15,7 +14,6 @@
             </div>
         </div>
 
-        <!-- Tweede Kaartje -->
         <div class="text-maingreen gap-2 items-start flex col-span-1">
             <img src="../../assets/images/webapp-icon-mobile.svg" alt="">
             <div>
@@ -30,7 +28,6 @@
             </div>
         </div>
 
-        <!-- Derde Kaartje (volledige breedte) -->
         <div class="text-maingreen gap-2 items-start flex col-span-1 md:col-span-2 lg:col-span-3">
             <img src="../../assets/images/visual-icon-mobile.svg" alt="">
             <div>

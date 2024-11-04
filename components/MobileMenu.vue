@@ -1,6 +1,5 @@
 <template>
   <div class="flex md:hidden z-50 flex-col items-center">
-    <!-- Navigatie -->
     <nav class="navbar">
       <ul class="text-3xl text-center text-maingreen uppercase">
         <li class="mb-10">
@@ -25,10 +24,10 @@
         </li>
       </ul>
     </nav>
-
-    <!-- Alternatief logo onder de menu-items -->
     <div class="absolute bottom-10">
-      <img src="../assets/images/logo-mobile-menu.svg" alt="Alternative Logo" />
+      <NuxtLink to="/">
+              <img src="../assets/images/logo-mobile-menu.svg" alt="Alternative Logo" />
+      </NuxtLink>
     </div>
   </div>
 </template>

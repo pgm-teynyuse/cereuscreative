@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-website fixed  inset-x-0 top-0 z-50 flex items-center justify-between p-8"
+    class="bg-opacity-30 backdrop-filter backdrop-blur-lg bg-website fixed  inset-x-0 top-0 z-50 flex items-center justify-between p-8"
   >
     <div class="logo-main">
       <img

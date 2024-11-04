@@ -11,6 +11,8 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@lottiefiles/vue-lottie-player": "^1.1.0",
+    "lottie-web": "^5.12.2",
     "nuxt": "^3.13.2",
     "tailwindcss": "^3.4.14",
     "vue": "latest",

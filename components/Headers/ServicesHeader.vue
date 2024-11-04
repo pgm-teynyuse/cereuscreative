@@ -1,6 +1,6 @@
 <template>
   <div class=" ">    
-    <div class=" flex flex-col border-b-8  border-lightgreen justify-center items-center text-center p-4 sm:p-6 md:p-10 lg:p-20 lg:pb-28">
+    <div class=" flex flex-col border-b-8 pb-36 p-5  border-lightgreen justify-center items-center text-center">
       <h1 class="font-light text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl text-maingreen">
         <span class="font-semibold italic">Van</span> merkverhaal <span class="font-semibold italic">tot</span> digitale beleving
       </h1>
@@ -10,7 +10,7 @@
     </div>
   </div>
 
-  <div class="relative -mt-28 z-30 hidden lg:block">
+  <div class="relative -mt-44 z-30 hidden lg:block">
     <ServicesHome />
   </div>
 
