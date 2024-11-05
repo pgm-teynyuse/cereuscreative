@@ -22,3 +22,7 @@ body::-webkit-scrollbar {
   font-weight: 600;
   font-style: italic;
 }
+
+.clip-slant {
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+}
