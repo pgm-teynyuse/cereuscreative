@@ -3,14 +3,14 @@
     <h2 class="text-6xl mb-6 md:text-6xl text-darkgreen">
       Klanten<br /><span class="font-semibold italic">feedback</span>
     </h2>
-    <div class="testimonial-container grid md:grid-cols-3 gap-10">
+    <div class="testimonial-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
       <div
         class="testimonial-card bg-middlegreen p-10 text-darkgreen"
         v-for="(testimonial, index) in testimonials"
         :key="testimonial.name"
       >
         <div class="flex items-center mb-6">
-          <div class=" mr-2 w-10 ">
+          <div class="mr-2 w-10">
             <img src="../../public/assets/images/quote-icon.svg" alt="">
           </div>
           <div>

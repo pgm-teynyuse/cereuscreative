@@ -5,7 +5,7 @@
             <h3 class="text-2xl md:text-4xl font-semibold italic mb-4 md:mb-5">
                 Start vandaag met jouw merkverhaal!
             </h3>
-            <p class="lg:w-full text-lg md:text-xl md:w-2/3">
+            <p class="lg:w-full text-lg md:text-lg md:w-2/2">
                 Of je nu vragen hebt of een samenwerking wilt starten, ik sta voor je klaar om jouw merk krachtig neer te zetten.
             </p>
             <div class="absolute -bottom-5 right-4 md:top-[76px] md:-right-40 w-32 md:w-60 transform transition-all duration-500 ease-out group-hover:translate-x-4">
