@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10">
+  <div class="p-10 ">
     <div class="flex justify-between flex-col md:flex-row text-left md:text-left">
       <h2 class="text-5xl md:text-6xl text-darkgreen">
         Recente<br /><span class="font-semibold italic">projecten</span>
@@ -11,16 +11,19 @@
         :key="project.id"
         class="relative group w-full h-72 overflow-hidden text-darkgreen"
       >
-        <div class="bg-maingreen w-full h-full transition-transform duration-300 group-hover:scale-105">
-          <img
-            class="w-full h-full object-cover"
-            :src="project.image ? project.image : '/images/covers/noimage.jpg'"
-            alt="project image"
-          />
-        </div>
-        <div class="absolute inset-0 bg-maingreen bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <h3 class="text-2xl font-semibold text-white">{{ project.title }}</h3>
-        </div>
+        <NuxtLink :to="`/projects/${project.slug}`" class="block w-full h-full">
+          <div class="w-full h-full transition-transform duration-300 group-hover:scale-105">
+            <img
+              class="w-full h-full object-cover transition-opacity duration-300"
+              :src="project.image ? project.image : '/images/covers/noimage.jpg'"
+              alt="project image"
+            />
+          </div>
+          <div class="absolute inset-0 bg-maingreen bg-opacity-0 flex flex-col items-center justify-center opacity-80 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
+            <h3 class="text-4xl font-semibold text-white">{{ project.title }}</h3>
+            <p class="text-xl text-white mt-2">{{ project.description }}</p>
+          </div>
+        </NuxtLink>
       </div>
     </div>
     <div class="flex justify-end">
@@ -48,18 +51,24 @@ export default {
       projects: [
         {
           id: 1,
-          title: 'Project Title 1',
+          title: 'Quibo',
+          slug: 'quibo',
           image: '/images/covers/project1.jpg',
+          description: 'Boekenruil platform'
         },
         {
           id: 2,
-          title: 'Project Title 2',
-          image: '', 
+          title: 'MealMate',
+          slug: 'mealmate',
+          image: '/images/covers/project2.jpg',
+          description: 'Meal voorbereider'
         },
         {
           id: 3,
-          title: 'Project Title 3',
-          image: '', 
+          title: 'FitTrack',
+          slug: 'fittrack',
+          image: '/images/covers/project3.jpg',
+          description: 'Fitness tracker'
         },
       ],
     };

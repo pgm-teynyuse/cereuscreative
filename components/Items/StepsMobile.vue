@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10">
+  <div class="p-10 bg-white ">
     <div class="">
       <h2 class="text-5xl mb-5 text-darkgreen">
         Samen<br /><span class="font-semibold italic">naar succes</span>

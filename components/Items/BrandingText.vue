@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col relative lg:p-20">
     <div class="p-10 mb-52 relative">
-      <div class="flex flex-col">
+      <div class="flex lg:ml-28 md:ml-0 flex-col">
         <h2 class="text-3xl lg:text-4xl text-maingreen font-semibold italic">
           Branding
         </h2>
@@ -12,13 +12,13 @@
         </p>
       </div>
       <img
-        class="absolute -z-30 -top-20 -left-24 lg:-left-40"
+        class="absolute w-40 lg:w-80 -z-30 -top-20 -left-20 lg:-left-40"
         src="~/public/assets/images/lamp.svg"
         alt="Branding lampje"
       />
     </div>
     <div class="p-10 relative">
-      <div class="flex flex-col">
+      <div class="flex lg:ml-28 md:ml-0 flex-col">
         <h2 class="text-3xl lg:text-4xl text-maingreen font-semibold italic">
           Webdesign
         </h2>
@@ -29,7 +29,7 @@
         </p>
       </div>
       <img
-        class="absolute -z-30 -top-20 -left-24 lg:-left-40"
+        class="absolute lg:w-80 w-40 -z-30 -top-0 -left-20 lg:-left-40"
         src="~/public/assets/images/computer.svg"
         alt="Branding lampje"
       />

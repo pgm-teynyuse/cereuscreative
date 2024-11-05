@@ -1,5 +1,5 @@
 <template>
-  <div class="testimonial-section mb-28 px-10">
+  <div class="testimonial-section mb-96 px-10">
     <h2 class="text-6xl mb-6 md:text-6xl text-darkgreen">
       Klanten<br /><span class="font-semibold italic">feedback</span>
     </h2>
@@ -10,6 +10,9 @@
         :key="testimonial.name"
       >
         <div class="flex items-center mb-6">
+          <div class=" mr-2 w-10 ">
+            <img src="../../public/assets/images/quote-icon.svg" alt="">
+          </div>
           <div>
             <p class="font-bold text-lg text-website">{{ testimonial.name }}</p>
             <p class="italic text-maingreen">{{ testimonial.position }}</p>
@@ -32,7 +35,7 @@ export default {
           name: 'David',
           position: 'CEO FinGrow',
           feedback:
-            "Teynur made the process easy and delivered a product that's already gaining traction.",
+            "Teynur made the process easy and delivered a product that is already gaining traction."
         },
         {
           name: 'Maya',

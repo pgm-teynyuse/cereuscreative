@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 p-10 sm:mt-10"
+    class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 p-7 sm:mt-10"
   >
     <div class="text-maingreen gap-2 items-start flex col-span-1">
       <img src="~/public/assets/images/wordpress-icon-mobile.svg" alt="" />
