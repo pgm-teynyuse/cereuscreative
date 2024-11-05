@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-opacity-30 backdrop-filter backdrop-blur-lg bg-website fixed inset-x-0 top-0 z-50 flex items-center justify-between p-8"
+    class="bg-opacity-30 backdrop-filter backdrop-blur-lg bg-website fixed inset-x-0 top-0 z-50 flex items-center justify-between pl-8 pr-8 pt-5 pb-3"
   >
     <NuxtLink to="/">
       <div class="logo-main">
