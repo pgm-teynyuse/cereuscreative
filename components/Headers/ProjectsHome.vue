@@ -19,7 +19,7 @@
           class="bg-maingreen w-full h-full transition-transform duration-300 group-hover:scale-105"
         >
           <img
-            :src="project.image || '/_nuxt/assets/images/covers/noimage.jpg'"
+            :src="project.image || '../../assets/images/covers/noimage.jpg'"
             alt="Project Image"
             class="w-full h-full object-cover"
           />
@@ -57,7 +57,7 @@ export default {
         {
           id: 1,
           title: 'Project Title 1',
-          image: '/_nuxt/assets/images/covers/noimage.jpg',
+          image: '../../assets/images/covers/noimage.jpg',
         },
         { id: 2, title: 'Project Title 2', image: '' },
         { id: 3, title: 'Project Title 3', image: '' },
