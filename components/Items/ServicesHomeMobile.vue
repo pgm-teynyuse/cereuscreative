@@ -3,7 +3,7 @@
     class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 p-10 sm:mt-10"
   >
     <div class="text-maingreen gap-2 items-start flex col-span-1">
-      <img src="../../assets/images/wordpress-icon-mobile.svg" alt="" />
+      <img src="~/public/assets/images/wordpress-icon-mobile.svg" alt="" />
       <div>
         <div class="text-xl border-maingreen">
           <p>WordPress<span class="font-semibold italic"> Websites</span></p>
@@ -18,7 +18,7 @@
     </div>
 
     <div class="text-maingreen gap-2 items-start flex col-span-1">
-      <img src="../../assets/images/webapp-icon-mobile.svg" alt="" />
+      <img src="~/public/assets/images/webapp-icon-mobile.svg" alt="" />
       <div>
         <div class="text-xl border-maingreen">
           <p>
@@ -38,7 +38,7 @@
     <div
       class="text-maingreen gap-2 items-start flex col-span-1 md:col-span-2 lg:col-span-3"
     >
-      <img src="../../assets/images/visual-icon-mobile.svg" alt="" />
+      <img src="~/public/assets/images/visual-icon-mobile.svg" alt="" />
       <div>
         <div class="text-xl border-maingreen">
           <p>Visuele<span class="font-semibold italic"> Identiteit</span></p>

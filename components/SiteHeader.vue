@@ -5,7 +5,7 @@
     >
       <NuxtLink to="/">
         <div class="logo-main ml-10">
-          <img src="../assets/images/logo-main.svg" alt="" />
+          <img src="~/public/assets/images/logo-main.svg" alt="" />
         </div>
       </NuxtLink>
       <NavBar />

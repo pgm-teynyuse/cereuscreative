@@ -8,7 +8,7 @@
     <div>
       <img
         class="w-[300px] mb-2 ml-[16px]"
-        src="../../assets/images/target.svg"
+        src="~/public/assets/images/target.svg"
         alt=""
       />
     </div>

@@ -13,7 +13,7 @@
       </div>
       <img
         class="absolute -z-30 -top-20 -left-24 lg:-left-40"
-        src="../../assets/images/lamp.svg"
+        src="~/public/assets/images/lamp.svg"
         alt="Branding lampje"
       />
     </div>
@@ -30,7 +30,7 @@
       </div>
       <img
         class="absolute -z-30 -top-20 -left-24 lg:-left-40"
-        src="../../assets/images/computer.svg"
+        src="~/public/assets/images/computer.svg"
         alt="Branding lampje"
       />
     </div>

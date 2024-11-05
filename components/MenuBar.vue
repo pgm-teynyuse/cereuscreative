@@ -6,7 +6,7 @@
       <div class="logo-main">
         <img
           v-if="!showMenu"
-          src="../assets/images/logo-mobile.svg"
+          src="~/public/assets/images/logo-mobile.svg"
           alt="Logo mobile"
         />
         <div v-else class="w-12 h-12"></div>
@@ -16,10 +16,10 @@
     <div class="cursor-pointer" @click="toggleMenu">
       <img
         v-if="!showMenu"
-        src="../assets/images/burger-menu.svg"
+        src="~/public/assets/images/burger-menu.svg"
         alt="Burger Menu"
       />
-      <img v-else src="../assets/images/exit-menu.svg" alt="Close Menu" />
+      <img v-else src="~/public/assets/images/exit-menu.svg" alt="Close Menu" />
     </div>
   </div>
 
