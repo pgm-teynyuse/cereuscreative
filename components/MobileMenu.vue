@@ -1,5 +1,5 @@
 <template>
-  <div class="flex md:hidden z-50 flex-col items-center">
+  <div class="flex md:hidden z-50 flex-col">
     <nav class="navbar">
       <ul class="text-3xl text-center text-maingreen uppercase">
         <li class="mb-10">
@@ -27,7 +27,7 @@
     <NuxtLink to="/">
       <div class="absolute bottom-10">
         <img
-          src="~/public/assets/images/logo-mobile-menu.svg"
+          src="../public/assets/images/logo-mobile-menu.svg"
           alt="Alternative Logo"
         />
       </div>
@@ -45,6 +45,4 @@ export default {
 };
 </script>
 
-<style scoped>
-/* Optionele styling voor MobileMenu */
-</style>
+

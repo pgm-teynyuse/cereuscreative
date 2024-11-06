@@ -44,6 +44,7 @@
       <div
         class="flex text-lg md:text-xl flex-col text-darkgreen leading-loose font-bold"
       >
+        <NuxtLink to="/">Home</NuxtLink>   
         <NuxtLink to="/about">Over</NuxtLink>
         <NuxtLink to="/worktoegether">Samenwerking</NuxtLink>
         <NuxtLink to="/portfolio">Portfolio</NuxtLink>
