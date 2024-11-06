@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center bg-white  p-10 gap-32 mt-40 justify-between">
+  <div class="flex items-center bg-white p-10 gap-32 mt-40 justify-between">
     <div class="w-2/5">
       <div class="">
         <h2 class="text-6xl mb-5 text-darkgreen">

@@ -3,7 +3,9 @@
     <h2 class="text-6xl mb-6 md:text-6xl text-darkgreen">
       Klanten<br /><span class="font-semibold italic">feedback</span>
     </h2>
-    <div class="testimonial-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+    <div
+      class="testimonial-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10"
+    >
       <div
         class="testimonial-card bg-middlegreen p-10 text-darkgreen"
         v-for="(testimonial, index) in testimonials"
@@ -11,7 +13,7 @@
       >
         <div class="flex items-center mb-6">
           <div class="mr-2 w-10">
-            <img src="../../public/assets/images/quote-icon.svg" alt="">
+            <img src="../../public/assets/images/quote-icon.svg" alt="" />
           </div>
           <div>
             <p class="font-bold text-lg text-website">{{ testimonial.name }}</p>
@@ -35,7 +37,7 @@ export default {
           name: 'David',
           position: 'CEO FinGrow',
           feedback:
-            "Teynur made the process easy and delivered a product that is already gaining traction."
+            'Teynur made the process easy and delivered a product that is already gaining traction.',
         },
         {
           name: 'Maya',
@@ -47,7 +49,7 @@ export default {
           name: 'Sophie',
           position: 'Marketing Manager RetailHub',
           feedback:
-            'Working with Teynur has been a game changer for our product.',
+            'Working with Teynur has been a game changer for our product. ',
         },
       ],
     };

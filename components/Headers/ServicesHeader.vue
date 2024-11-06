@@ -1,5 +1,5 @@
 <template>
-  <div class=" lg:bg-white ">
+  <div class="lg:bg-white">
     <div
       class="flex flex-col border-t-8 lg:border-t-0 lg:border-b-8 pb-36 p-10 mt-40 border-lightgreen justify-center"
     >
