@@ -1,4 +1,8 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -20,4 +24,20 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+
+  // Nodemailer als interne dependency bundelen
+  nitro: {
+    externals: {
+      inline: ['nodemailer'],
+    },
+  },
+
+  runtimeConfig: {
+    public: {
+      baseURL: process.env.BASE_URL || 'http://localhost:3000',
+    },
+    gmailUser: process.env.GMAIL_USER,
+    gmailPassword: process.env.GMAIL_PASSWORD,
+    sendgridApiKey: process.env.SENDGRID_API_KEY,
+  },
 });
