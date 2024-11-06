@@ -1,6 +1,5 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const nodemailer = require('nodemailer');
+import { defineEventHandler, useRuntimeConfig, readBody } from 'h3';
+import sgMail from '@sendgrid/mail';
 
 export default defineEventHandler(async (event) => {
   if (getMethod(event) !== 'POST') {
@@ -16,42 +15,29 @@ export default defineEventHandler(async (event) => {
     // Haal de runtime-configuratie op
     const config = useRuntimeConfig();
 
-    // Log de waarden om te controleren of ze juist worden opgehaald
-    console.log('SendGrid API Key:', config.sendgridApiKey);
-    console.log('Gmail User:', config.gmailUser);
+    // Stel SendGrid API sleutel in
+    sgMail.setApiKey(config.sendgridApiKey);
 
-    const sendgridApiKey = config.sendgridApiKey;
-    const gmailUser = config.gmailUser;
-
-    if (!sendgridApiKey || !gmailUser) {
-      throw new Error('Missing SendGrid API key or Gmail user');
-    }
-
-    // Configureer Nodemailer met SendGrid
-    const transporter = nodemailer.createTransport({
-      host: 'smtp.sendgrid.net',
-      port: 587,
-      auth: {
-        user: 'apikey', // Dit is altijd 'apikey' voor SendGrid
-        pass: sendgridApiKey, // Haal de API-sleutel op uit de runtime configuratie
-      },
-    });
-
-    const mailOptions = {
-      from: `Formulier Contact <cereuscrtv@gmail.com>`,
-      to: gmailUser,
-      replyTo: email,
+    const msg = {
+      to: config.gmailUser, // Het adres waar de e-mail naartoe wordt gestuurd
+      from: 'cereuscrtv@gmail.com', // Je eigen (geverifieerde) adres in SendGrid
+      replyTo: email, // Het adres van de persoon die het formulier heeft ingevuld
       subject: `Nieuw bericht van ${name}`,
       text: `Bericht: \n\n${message}\n\nE-mailadres afzender: ${email}`,
     };
 
-    await transporter.sendMail(mailOptions);
+    // Verstuur de e-mail
+    await sgMail.send(msg);
+
     return {
       statusCode: 200,
       body: { message: 'E-mail succesvol verzonden!' },
     };
   } catch (error) {
-    console.error('Er is een fout opgetreden:', error);
+    console.error(
+      'Er is een fout opgetreden:',
+      error.response?.body || error.message
+    );
     return {
       statusCode: 500,
       body: { message: 'Er ging iets mis met het verzenden van de e-mail.' },
