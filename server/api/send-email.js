@@ -1,5 +1,6 @@
-import { defineEventHandler, useRuntimeConfig, readBody } from 'h3';
+import { defineEventHandler, readBody } from 'h3';
 import sgMail from '@sendgrid/mail';
+import { useRuntimeConfig } from '#imports';
 
 export default defineEventHandler(async (event) => {
   if (getMethod(event) !== 'POST') {
@@ -15,7 +16,7 @@ export default defineEventHandler(async (event) => {
     // Haal de runtime-configuratie op
     const config = useRuntimeConfig();
 
-    // Stel SendGrid API sleutel in
+    // Stel de SendGrid API-sleutel in
     sgMail.setApiKey(config.sendgridApiKey);
 
     const msg = {
