@@ -4,27 +4,30 @@
       <h2 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
         Echte partner in <span class="italic text-maingreen">kwaliteit</span>
       </h2>
-      <p class="text-lg md:text-xl text-maingreen">
+      <p class="text-lg md:text-2xl font-bold text-maingreen">
         Samenwerken met mij betekent dat je kiest voor een partner die jouw
         visie begrijpt en omzet in een uniek, digitaal resultaat.
       </p>
-      <p class="text-lg md:text-xl text-maingreen mb-10">
-        Met oog voor detail, creativiteit, en flexibiliteit zorg ik ervoor dat
-        elk project precies aansluit op jouw wensen en doelen.
-      </p>
-      <div>
+      <div class="mt-20">
         <p class="md:text-xl text-lg text-maingreen">
-          Bekijk hieronder de verschillende pakketten die ik aanbied. Daarna
-          kunnen we samen kijken welk pakket het beste bij jouw wensen en doelen
-          past.
+          Bekijk hieronder de verschillende pakketten die ik aanbied.
         </p>
-        <NuxtLink to="/contact" class="text-maingreen semibold italic text-xl">
-          Neem contact op
-        </NuxtLink>
+        <p class="md:text-xl text-lg text-maingreen">
+          Daarna kunnen we samen kijken welk pakket het beste bij jouw wensen en
+          doelen past.
+        </p>
+        <div class="mt-8">
+          <NuxtLink
+            to="/contact"
+            class="hover:bg-lightgreen px-2 py-3 text-darkgreen border border-darkgreen ease-out duration-500 transform text-xl"
+          >
+            Neem contact op
+          </NuxtLink>
+        </div>
       </div>
     </div>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 ml-10 mr-10">
-      <div class="p-6 border bg-lightgreen rounded-lg border-lightgreen">
+      <div class="p-6 border bg-lightgreen border-lightgreen">
         <div class="flex gap-3 items-center">
           <font-awesome-icon
             :icon="['fas', 'object-group']"
@@ -48,7 +51,7 @@
           willen ontwikkelen.
         </p>
       </div>
-      <div class="p-6 border rounded-lg border-lightgreen">
+      <div class="p-6 border border-lightgreen">
         <div class="flex gap-3 items-center">
           <font-awesome-icon
             :icon="['fas', 'rocket']"
@@ -68,7 +71,7 @@
           basiswebsite nodig hebben zonder uitgebreide functionaliteiten.
         </p>
       </div>
-      <div class="p-6 border rounded-lg border-lightgreen">
+      <div class="p-6 border border-lightgreen">
         <div class="flex gap-3 items-center">
           <font-awesome-icon
             :icon="['fas', 'star']"
@@ -90,7 +93,7 @@
           eenvoudige webshop, en behoefte hebben aan onderhoud en SEO.
         </p>
       </div>
-      <div class="p-6 border rounded-lg border-lightgreen">
+      <div class="p-6 border border-lightgreen">
         <div class="flex gap-3 items-center">
           <font-awesome-icon
             :icon="['fas', 'gem']"

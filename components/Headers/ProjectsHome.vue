@@ -1,7 +1,7 @@
 <template>
-  <div class="">
+  <div class="bg-white pt-40">
     <div class="flex relative justify-between">
-      <div class="absolute left-9 -mt-4 md:-mt-12">
+      <div class="absolute left-9 -mt-4 md:-mt-6">
         <h2 class="text-7xl md:text-9xl text-darkgreen">
           <span class="font-semibold">Projecten</span>
         </h2>
@@ -9,13 +9,13 @@
       <div class="absolute hidden md:hidden lg:block right-9">
         <NuxtLink
           to="/portfolio"
-          class="text-xl text-darkgreen font-semibold italic hover:text-middlegreen"
+          class="hover:bg-lightgreen px-2 py-3 text-darkgreen border border-darkgreen ease-out duration-500 transform text-xl"
         >
-          Bekijk alle projecten
+          Bekijk de projecten
         </NuxtLink>
       </div>
     </div>
-    <div class="grid grid-cols-1 mt-10 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="grid grid-cols-1 mt-16 sm:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="project in projects"
         :key="project.id"
@@ -47,13 +47,11 @@
           </div>
         </NuxtLink>
       </div>
-    </div>
-    <div class="block mt-10 mr-10 text-right md:block lg:hidden">
       <NuxtLink
         to="/portfolio"
-        class="text-xl text-darkgreen italic font-semibold hover:text-middlegreen"
+        class="hover:bg-lightgreen px-2 py-3 block md:text-lightgreen md:block md:bg-darkgreen lg:hidden md:text-7xl text-darkgreen border border-darkgreen ease-out duration-500 transform text-xl"
       >
-        Bekijk alle projecten
+        Alle projecten
       </NuxtLink>
     </div>
   </div>
@@ -93,7 +91,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Jouw bestaande styling */
-</style>

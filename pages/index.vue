@@ -4,6 +4,7 @@
     <ServicesHeader />
     <StepsHome />
     <WhyMe />
+    <WorkWithMe />
     <ProjectsHome />
     <Testimonial />
   </div>
@@ -16,6 +17,7 @@ import ServicesHeader from '~/components/Headers/ServicesHeader.vue';
 import StepsHome from '~/components/Headers/StepsHome.vue';
 import ProjectsHome from '~/components/Headers/ProjectsHome.vue';
 import Testimonial from '~/components/Items/Testimonial.vue';
+import WorkWithMe from '~/components/Items/WorkWithMe.vue';
 
 export default {
   components: {
@@ -25,6 +27,7 @@ export default {
     StepsHome,
     ProjectsHome,
     Testimonial,
+    WorkWithMe,
   },
 };
 </script>
