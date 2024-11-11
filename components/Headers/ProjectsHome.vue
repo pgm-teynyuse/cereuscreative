@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white pt-40">
     <div class="flex relative justify-between">
-      <div class="absolute left-9 -mt-4 md:-mt-6">
+      <div class="absolute left-0 lg:left-9 lg:-mt-4 mt-4 md:-mt-6">
         <h2 class="text-7xl md:text-9xl text-darkgreen">
           <span class="font-semibold">Projecten</span>
         </h2>
