@@ -6,7 +6,6 @@
     <WhyMe />
     <WorkWithMe />
     <ProjectsHome />
-    <Testimonial />
   </div>
 </template>
 

@@ -1,9 +1,9 @@
 <template>
   <div class="p-10 bg-white pt-40 pb-40">
-    <div class=" border-lightgreen">
+    <div >
       <div class="flex justify-between flex-col lg:flex-row md:flex-col md:items-start lg:items-center ">
         <div>
-        <h1 class="text-4xl mb-5 font-semibold italic text-darkgreen">
+        <h1 class="lg:text-6xl text-4xl mb-5 font-semibold italic text-darkgreen">
           Samenwerken
         </h1>
         <p class="text-maingreen text-xl pb-10 ">
