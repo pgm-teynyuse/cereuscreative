@@ -8,7 +8,7 @@
         </p>
       </div>
       <div class="mt-4">
-        <p>
+        <p class="text-xl">
           Gebruiksvriendelijk en goed te beheren. Ideaal voor bedrijven die snel
           online willen met een professionele website.
         </p>
@@ -22,7 +22,7 @@
         </p>
       </div>
       <div class="mt-4">
-        <p>
+        <p class="text-xl">
           Gebruiksvriendelijk en goed te beheren. Ideaal voor bedrijven die snel
           online willen met een professionele website.
         </p>
@@ -36,7 +36,7 @@
         </p>
       </div>
       <div class="mt-4">
-        <p class="">
+        <p class="text-xl">
           Gebruiksvriendelijk en goed te beheren. Ideaal voor bedrijven die snel
           online willen met een professionele website.
         </p>

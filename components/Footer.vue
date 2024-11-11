@@ -2,7 +2,7 @@
   <div class="relative">
     <NuxtLink to="/contact">
       <div
-        class="absolute group cursor-pointer p-6 md:p-10 ml-10 mr-10 text-lightgreen -top-72 md:-top-40 left-0 md:left-10 md:w-1/2 h-96 md:h-80 bg-maingreen"
+        class="absolute group cursor-pointer p-6 md:p-10 mr-10 text-lightgreen -top-72 md:-top-40 left-10 md:left-10 md:w-1/2 h-96 md:h-80 bg-maingreen"
       >
         <h3 class="text-2xl md:text-4xl font-semibold italic mb-4 md:mb-5">
           Start vandaag met jouw merkverhaal!

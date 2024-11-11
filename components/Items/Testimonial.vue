@@ -1,5 +1,5 @@
 <template>
-  <div class="testimonial-section mb-96 px-10">
+  <div class="testimonial-section mb-96 mt-40 px-10">
     <h2 class="text-6xl mb-6 md:text-6xl text-darkgreen">
       Klanten<br /><span class="font-semibold italic">feedback</span>
     </h2>

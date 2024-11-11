@@ -1,5 +1,7 @@
 <template>
-  <div class="flex items-center bg-white p-10 gap-32 mt-40 justify-between">
+  <div
+    class="flex items-center bg-white p-10 pt-52 pb-52 gap-32 mt-40 justify-between"
+  >
     <div class="w-2/5">
       <div class="">
         <h2 class="text-6xl mb-5 text-darkgreen">
@@ -18,7 +20,7 @@
           </h3>
         </div>
         <p
-          class="ml-5 text-xl mt-2 mb-2 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen"
+          class="ml-5 text-xl mt-2 mb-2 h-36 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen"
         >
           We starten met een kennismaking om jouw doelen, visie en doelgroep te
           begrijpen. Dit vormt de basis voor een sterk ontwerp en een effectieve
@@ -37,7 +39,7 @@
           </h3>
         </div>
         <p
-          class="ml-5 mt-2 text-xl mb-2 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen"
+          class="ml-5 mt-2 text-xl h-36 mb-2 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen"
         >
           Op basis van onze gesprekken werk ik een creatief concept uit. Dit
           omvat de eerste ontwerpen voor je merk of website, zodat je een helder
@@ -55,7 +57,7 @@
             Ontwerp & Uitwerking
           </h3>
         </div>
-        <p class="ml-5 mt-2 text-xl pl-[25px] text-darkgreen">
+        <p class="ml-5 mt-2 text-xl h-36 pl-[25px] text-darkgreen">
           In deze fase breng ik het concept tot leven. Ik werk aan de visuele
           identiteit of het webdesign, waarbij ik oog heb voor detail en
           functionaliteit.
@@ -82,7 +84,7 @@
           </h3>
         </div>
         <p
-          class="ml-5 mt-2 text-xl mb-2 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen"
+          class="ml-[17px] mt-2 text-xl h-36 mb-2 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen"
         >
           We doorlopen samen de ontwerpen en ik verwerk jouw feedback om te
           zorgen dat alles perfect aansluit bij jouw wensen.
@@ -99,7 +101,9 @@
             Feedback & Verbeteringen
           </h3>
         </div>
-        <p class="ml-5 mt-2 text-xl border-darkgreen pl-[25px] text-darkgreen">
+        <p
+          class="ml-5 mt-2 text-xl h-36 border-darkgreen pl-[25px] text-darkgreen"
+        >
           Na de laatste optimalisaties is het tijd voor de lancering. Ik zorg
           ervoor dat alles goed werkt en begeleid je bij de eerste stappen van
           jouw nieuwe merk of website.

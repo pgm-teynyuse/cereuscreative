@@ -1,10 +1,10 @@
 <template>
-  <div class="lg:bg-white">
+  <div class=" ">
     <div
-      class="flex flex-col border-t-8 lg:border-t-0 lg:border-b-8 pb-36 p-10 mt-40 border-lightgreen justify-center"
+      class="flex flex-col border-t-8 lg:border-t-0 lg:border-b-8 pb-36 p-10 border-lightgreen justify-center"
     >
       <h1
-        class="font-light text-5xl lg:mt-28 sm:text-5xl md:text-4xl lg:text-5xl text-maingreen"
+        class="font-light text-5xl lg:mt-0 sm:text-5xl md:text-4xl lg:text-5xl text-maingreen"
       >
         <span class="font-semibold italic">Van</span> merkverhaal
         <span class="font-semibold italic">tot</span> digitale beleving

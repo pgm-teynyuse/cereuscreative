@@ -20,7 +20,11 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ['~/public/assets/css/main.css'],
+  plugins: ['~/plugins/fontawesome.js'],
+  css: [
+    '~/public/assets/css/main.css',
+    '@fortawesome/fontawesome-svg-core/styles.css',
+  ],
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
