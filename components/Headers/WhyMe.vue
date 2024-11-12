@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-10 pt-40 pb-40 mb-40 mt-40 items-start md:items-start gap-32 flex flex-col md:flex-col"
+    class="p-10 pb-40 mb-40 mt-40 items-start md:items-start gap-32 flex flex-col md:flex-col"
   >
     <div class="">
       <h2 class="text-6xl mb-5 text-darkgreen">

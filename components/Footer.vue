@@ -37,7 +37,7 @@
           <p>Teynur Yuseinov</p>
           <p>
             <span class="font-semibold">©CereusCreative •</span>
-            <NuxtLink to="">Privacy Policy</NuxtLink>
+            <NuxtLink to=""> Privacy Policy</NuxtLink>
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white
-  mb-96 pt-40">
+  mb-96 ">
       <div class="flex p-10 justify-between  flex-col lg:flex-row md:flex-col md:items-start lg:items-center ">
         <div>
         <h1 class="lg:text-6xl text-4xl mb-5  text-darkgreen">

@@ -1,6 +1,6 @@
 <template>
   <div class="mr-10 z-50">
-    <nav class="navbar">
+    <nav class="navbar" v-bind="$attrs">
       <ul class="flex space-x-4 text-lg text-maingreen">
         <li>
           <NuxtLink
@@ -42,3 +42,11 @@
     </nav>
   </div>
 </template>
+
+<script>
+export default {
+  inheritAttrs: false, // Voorkomt automatische overerving van attributes
+
+  // Je kunt een script blok hier toevoegen indien nodig
+};
+</script>
