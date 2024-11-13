@@ -98,7 +98,9 @@
           Oplevering & Lancering
         </h3>
       </div>
-      <p class="ml-4 mt-2 text-lg border-darkgreen pl-5 text-darkgreen">
+      <p
+        class="ml-4 mt-2 text-lg border-l-[5px] border-white pl-5 text-darkgreen"
+      >
         Na de laatste optimalisaties is het tijd voor de lancering. Ik zorg
         ervoor dat alles goed werkt en begeleid je bij de eerste stappen van
         jouw nieuwe merk of website.

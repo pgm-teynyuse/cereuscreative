@@ -1,6 +1,6 @@
 <template>
   <div class="mb-96">
-    <h1 class="text-5xl font-semibold p-10 text-darkgreen">Portfolio</h1>
+    <h1 class="text-6xl font-semibold p-10 text-darkgreen">Portfolio</h1>
     <div class="grid grid-cols-1 mt-16 sm:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="project in projects"
@@ -11,10 +11,14 @@
           :to="`/portfolio/${project.slug}`"
           class="block w-full h-full"
         >
-          <div class="w-full h-full transition-transform duration-300 group-hover:scale-105">
+          <div
+            class="w-full h-full transition-transform duration-300 group-hover:scale-105"
+          >
             <img
               class="w-full h-full object-cover transition-opacity duration-300"
-              :src="project.image ? project.image : '/images/covers/noimage.jpg'"
+              :src="
+                project.image ? project.image : '/images/covers/noimage.jpg'
+              "
               alt="project image"
             />
           </div>

@@ -40,13 +40,13 @@
           ><img src="../public/assets/images/linkedin.svg" alt="LinkedIn"
         /></NuxtLink>
       </div>
-              <div class="text-darkgreen mt-10 text-sm md:text-base">
-          <p>Teynur Yuseinov</p>
-          <p>
-            <span class="font-semibold">©CereusCreative • </span>
-            <NuxtLink to="">Privacy Policy</NuxtLink>
-          </p>
-        </div>
+      <div class="text-darkgreen mt-10 text-sm md:text-base">
+        <p>Teynur Yuseinov</p>
+        <p>
+          <span class="font-semibold">©CereusCreative • </span>
+          <NuxtLink to="">Privacy Policy</NuxtLink>
+        </p>
+      </div>
     </div>
     <div class="w-full md:w-1/2">
       <ContactForm />

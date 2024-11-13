@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mt-20  p-10 justify-between">
+  <div class="flex mt-20 p-10 justify-between">
     <div class="text-maingreen text-center w-1/4 flex flex-col items-center">
       <img src="~/public/assets/images/wordpress-icon.svg" alt="" />
       <div class="border-b-2 pb-2 mt-4 w-40 text-xl border-maingreen">

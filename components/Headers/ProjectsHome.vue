@@ -1,16 +1,17 @@
 <template>
-  <div class="bg-white
-  mb-96 ">
-      <div class="flex p-10 justify-between  flex-col lg:flex-row md:flex-col md:items-start lg:items-center ">
-        <div>
-        <h1 class="lg:text-6xl text-4xl mb-5  text-darkgreen">
-          Recente<br><span class=" font-semibold italic">Projecten</span> 
+  <div class="bg-white mb-96">
+    <div
+      class="flex p-10 justify-between flex-col lg:flex-row md:flex-col md:items-start lg:items-center"
+    >
+      <div>
+        <h1 class="lg:text-6xl text-4xl mb-5 text-darkgreen">
+          Recente<br /><span class="font-semibold italic">Projecten</span>
         </h1>
-    </div>
+      </div>
       <div class="md:hidden hidden lg:block">
         <NuxtLink
           to="/portfolio"
-          class="hover:bg-lightgreen px-2 py-3  text-darkgreen border border-darkgreen ease-out duration-500 transform text-xl"
+          class="hover:bg-lightgreen px-2 py-3 text-darkgreen border border-darkgreen ease-out duration-500 transform text-xl"
         >
           Alle projecten
         </NuxtLink>
