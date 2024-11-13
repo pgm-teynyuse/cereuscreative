@@ -64,50 +64,12 @@
 </template>
 
 <script>
+import projects from '../../public/assets/data/projects.json';
+
 export default {
   data() {
     return {
-      projects: [
-        {
-          slug: 'quibo',
-          title: 'Quibo',
-          image: '/images/covers/project1.jpg',
-          description: 'Boekenruil platform',
-          color: '#283F8B',
-          detail: {
-            client: 'ArteveldeHS',
-            content:
-              'Quibo is mijn afstudeerproject voor het graduaat programmeren. Het is een applicatie waarmee je boeken kunt ruilen, reviews kunt lezen, je eigen boekenkast kunt organiseren en kunt chatten met andere boekenliefhebbers. Zo leef je duurzamer en kom je in contact met gelijkgestemden. De applicatie is gebouwd met Next.js, Express.js, Tailwind CSS en PostgreSQL voor een snelle en gebruiksvriendelijke ervaring.',
-            technology: ['NextJS', 'ExpressJS', 'PostgreSQL', 'TailwindCSS'],
-          },
-        },
-        {
-          slug: 'sweet-tooth',
-          title: 'Sweet Tooth',
-          image: '/images/covers/project2.jpg',
-          description: 'Bakkerij Merkidentiteit',
-          color: '#DAC8B2',
-          detail: {
-            client: 'Serhat Eyigün',
-            content:
-              'Sweet Tooth is de bakkerij van Serhat, waar hij verrukkelijke cheesecakes en andere zoetigheden creëert. Voor Sweet Tooth heb ik een compleet brandingpakket ontworpen dat elke klant aanspreekt en de essentie van zijn ambacht weerspiegelt. Van stijlvolle verpakkingen tot elegante logo’s en kleuren die het merk versterken – alles is zorgvuldig afgestemd om de zoete ervaring van Sweet Tooth naar een hoger niveau te tillen.',
-            technology: ['Adobe Illustrator', 'WooCommerce', 'TailwindCSS'],
-          },
-        },
-        {
-          slug: 'studio-t',
-          title: 'Studio T',
-          image: '/images/covers/project3.jpg',
-          description: 'Digital Agency',
-          color: '#ED6653',
-          detail: {
-            client: 'Studio T',
-            content:
-              'Studio T is een fictief digitaal bureau dat gespecialiseerd is in het ontwerpen en ontwikkelen van websites en webapplicaties. De website is gebouwd met HTML en CSS. Gebruikers kunnen projecten bekijken en contact opnemen met het bureau.',
-            technology: ['HTML', 'CSS'],
-          },
-        },
-      ],
+      projects,
     };
   },
   computed: {
@@ -121,7 +83,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Optionele styling voor detailpagina */
-</style>

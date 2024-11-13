@@ -23,8 +23,9 @@
       </div>
       <div class="mt-4">
         <p class="text-xl">
-          Gebruiksvriendelijk en goed te beheren. Ideaal voor bedrijven die snel
-          online willen met een professionele website.
+          Op maat gemaakte websites met moderne frameworks. Deze zijn supersnel,
+          schaalbaar, en bieden geavanceerde mogelijkheden voor unieke,
+          dynamische webervaringen.
         </p>
       </div>
     </div>
@@ -37,8 +38,8 @@
       </div>
       <div class="mt-4">
         <p class="text-xl">
-          Gebruiksvriendelijk en goed te beheren. Ideaal voor bedrijven die snel
-          online willen met een professionele website.
+          Sterke visuele identiteiten die jouw merk krachtig en duurzaam
+          neerzetten, van logo-ontwerp tot complete huisstijl en branding.
         </p>
       </div>
     </div>
