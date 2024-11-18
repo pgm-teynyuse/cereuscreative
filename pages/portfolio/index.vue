@@ -39,6 +39,18 @@
 import projects from '../../public/assets/data/projects.json';
 
 export default {
+    setup() {
+    useHead({
+      title: 'Portfolio',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Cereus Creative is a web development and design company that specializes in creating custom websites for small businesses and entrepreneurs.',
+        },
+      ],
+    });
+  },
   data() {
     return {
       projects,
@@ -51,3 +63,5 @@ export default {
   },
 };
 </script>
+
+

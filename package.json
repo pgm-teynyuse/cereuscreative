@@ -17,6 +17,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@lottiefiles/vue-lottie-player": "^1.1.0",
     "@nuxt/image": "^1.8.1",
+    "@nuxtjs/plausible": "^1.1.1",
     "@nuxtjs/sitemap": "^6.1.5",
     "@sendgrid/mail": "^8.1.4",
     "dotenv": "^16.4.5",

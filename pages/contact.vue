@@ -58,6 +58,18 @@
 import ContactForm from '~/components/Items/ContactForm.vue';
 
 export default {
+    setup() {
+    useHead({
+      title: 'Contact',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Cereus Creative is a web development and design company that specializes in creating custom websites for small businesses and entrepreneurs.',
+        },
+      ],
+    });
+  },
   components: {
     ContactForm,
   },

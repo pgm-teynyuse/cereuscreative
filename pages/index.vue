@@ -19,6 +19,19 @@ import Testimonial from '~/components/Items/Testimonial.vue';
 import WorkWithMe from '~/components/Items/WorkWithMe.vue';
 
 export default {
+  setup() {
+    useHead({
+      title: 'Home',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Cereus Creative is a web development and design company that specializes in creating custom websites for small businesses and entrepreneurs.',
+        },
+      ],
+    });
+  },
+
   components: {
     HomeHeader,
     WhyMe,
@@ -27,14 +40,6 @@ export default {
     ProjectsHome,
     Testimonial,
     WorkWithMe,
-  },
-    head() {
-    return {
-      title: 'Cereus Creative - Home',
-      meta: [
-        { name: 'description', content: 'Unieke merkverhalen en digitale ervaringen met kracht en veiligheid.' }
-      ]
-    };
   },
 };
 </script>

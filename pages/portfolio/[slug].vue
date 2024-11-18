@@ -64,22 +64,35 @@
 </template>
 
 <script>
+import { useRoute } from 'vue-router';
+import { computed } from 'vue';
 import projects from '../../public/assets/data/projects.json';
 
 export default {
-  data() {
-    return {
-      projects,
-    };
-  },
-  computed: {
-    currentProject() {
-      const slug = this.$route.params.slug;
-      return this.projects.find(
+  setup() {
+    const route = useRoute();  // Haal de route op
+    const currentProject = computed(() => {
+      const slug = route.params.slug;  // Haal de slug uit de route
+      return projects.find(
         (project) =>
           project.slug.toLowerCase().trim() === slug.toLowerCase().trim()
       );
-    },
+    });
+
+    useHead({
+      title: currentProject.value ? currentProject.value.title : 'Project niet gevonden',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Cereus Creative is a web development and design company that specializes in creating custom websites for small businesses and entrepreneurs.',
+        },
+      ],
+    });
+
+    return {
+      currentProject,
+    };
   },
 };
 </script>
