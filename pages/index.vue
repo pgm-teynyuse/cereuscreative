@@ -28,5 +28,13 @@ export default {
     Testimonial,
     WorkWithMe,
   },
+    head() {
+    return {
+      title: 'Cereus Creative - Home',
+      meta: [
+        { name: 'description', content: 'Unieke merkverhalen en digitale ervaringen met kracht en veiligheid.' }
+      ]
+    };
+  },
 };
 </script>
