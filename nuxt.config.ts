@@ -5,7 +5,7 @@ dotenv.config();
 
 export default defineNuxtConfig({
   site: {
-    url: 'https://cereuscreative.com',
+    url: process.env.BASE_URL || 'https://www.cereuscreative.com',
     name: 'Cereus Creative',
   },
   app: {
@@ -81,7 +81,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      baseURL: process.env.BASE_URL || 'http://localhost:3000',
+      baseURL: process.env.BASE_URL || 'https://www.cereuscreative.com',
     },
     gmailUser: process.env.GMAIL_USER,
     gmailPassword: process.env.GMAIL_PASSWORD,
