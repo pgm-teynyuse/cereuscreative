@@ -1,13 +1,6 @@
 import { defineNuxtConfig } from 'nuxt/config';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 export default defineNuxtConfig({
-  site: {
-    url: process.env.BASE_URL || 'https://www.cereuscreative.com',
-    name: 'Cereus Creative',
-  },
   app: {
     head: {
       titleTemplate: '%s - Cereus Creative',
@@ -32,11 +25,11 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         {
           property: 'og:url',
-          content: process.env.BASE_URL || 'http://localhost:3000',
+          content: process.env.BASE_URL || 'https://www.cereuscreative.be',
         },
         {
           property: 'og:image',
-          content: `${process.env.BASE_URL || 'http://localhost:3000'}/og-image.jpg`,
+          content: `${process.env.BASE_URL || 'https://www.cereuscreative.be'}/og-image.jpg`,
         },
         { name: 'twitter:card', content: 'summary_large_image' },
       ],
@@ -72,7 +65,7 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
   ],
   plausible: {
-    domain: process.env.BASE_URL || 'localhost',
+    domain: 'www.cereuscreative.be', // Aangepast naar alleen de domeinnaam
   },
   nitro: {
     externals: {
@@ -81,7 +74,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      baseURL: process.env.BASE_URL || 'https://www.cereuscreative.com',
+      siteUrl: process.env.BASE_URL || 'https://www.cereuscreative.be', // Gebruik consistent een siteUrl
     },
     gmailUser: process.env.GMAIL_USER,
     gmailPassword: process.env.GMAIL_PASSWORD,
