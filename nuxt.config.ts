@@ -1,5 +1,4 @@
 import { defineNuxtConfig } from 'nuxt/config';
-import projects from './public/assets/data/projects.json';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -72,17 +71,14 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxtjs/plausible',
   ],
-
   plausible: {
     domain: process.env.BASE_URL || 'localhost',
   },
-
   nitro: {
     externals: {
       inline: ['nodemailer'],
     },
   },
-
   runtimeConfig: {
     public: {
       baseURL: process.env.BASE_URL || 'http://localhost:3000',
@@ -90,5 +86,8 @@ export default defineNuxtConfig({
     gmailUser: process.env.GMAIL_USER,
     gmailPassword: process.env.GMAIL_PASSWORD,
     sendgridApiKey: process.env.SENDGRID_API_KEY,
+  },
+  sitemap: {
+    sources: ['/api/__sitemap__/urls'],
   },
 });
