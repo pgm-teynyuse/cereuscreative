@@ -4,7 +4,7 @@
   >
     <div class="">
       <h2 class="text-6xl mb-5 text-darkgreen">
-        Waarom<br /><span class="font-semibold italic">samenwerken met mij?</span>
+        Waarom<br /><span class="font-semibold italic">werken met mij?</span>
       </h2>
     </div>
 
