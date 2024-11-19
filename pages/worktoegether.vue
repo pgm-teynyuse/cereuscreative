@@ -2,29 +2,33 @@
   <div class="mb-72 mx-auto">
     <div class="p-10">
       <h2 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
-        Echte partner in <span class="italic text-maingreen">kwaliteit</span>
+        Jouw partner voor <span class="italic text-maingreen">digitale groei</span>
       </h2>
       <p class="text-lg md:text-2xl font-bold text-maingreen">
-        Samenwerken met mij betekent dat je kiest voor een partner die jouw
-        visie begrijpt en omzet in een uniek, digitaal resultaat.
+        Kies voor samenwerking met mij en ontdek een partner die jouw visie vertaalt naar digitale oplossingen op maat.
       </p>
-      <div class="mt-20">
+            <div class="mt-1">
         <p class="md:text-xl text-lg text-maingreen">
-          Bekijk hieronder de verschillende pakketten die ik aanbied.
+          Bekijk hieronder de pakketten die ik aanbied, of schakel mij in als versterking binnen jouw team.
         </p>
-        <p class="md:text-xl text-lg text-maingreen">
-          Daarna kunnen we samen kijken welk pakket het beste bij jouw wensen en
-          doelen past.
-        </p>
-        <div class="mt-8">
+        <div class="mt-5 flex gap-4">
           <NuxtLink
             to="/contact"
-            class="hover:bg-lightgreen px-2 py-3 text-darkgreen border border-darkgreen ease-out duration-500 transform text-xl"
+            class="hover:bg-lightgreen px-4 py-3 text-darkgreen border border-darkgreen ease-out duration-500 transform text-xl"
           >
             Neem contact op
           </NuxtLink>
         </div>
       </div>
+          <div class="mt-10 bg-darkgreen p-10 ">
+      <h3 class="text-3xl font-semibold text-website mb-5">
+        Versterking nodig binnen jouw team?
+      </h3>
+      <p class="text-lg text-website">
+        Naast mijn pakketten bied ik ook ondersteuning aan als tijdelijke collega of freelancer. Of je nu extra hulp nodig hebt bij een project, of een specifieke expertise zoekt, ik sta klaar om jouw team te versterken.
+      </p>
+    </div>
+
     </div>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 ml-10 mr-10">
       <div class="p-6 border bg-lightgreen border-lightgreen">

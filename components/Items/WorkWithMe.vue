@@ -1,5 +1,6 @@
 <template>
   <div class="p-10 bg-white pt-40 pb-40">
+    <!-- Bestaande Samenwerken Sectie -->
     <div>
       <div
         class="flex justify-between flex-col lg:flex-row md:flex-col md:items-start lg:items-center"
@@ -11,7 +12,7 @@
             Samenwerken
           </h1>
           <p class="text-maingreen text-xl pb-10">
-            Bekijk de pakketten dat bij jouw bedrijf past en <br />
+            Bekijk de pakketten die bij jouw bedrijf passen en <br />
             neem contact op voor een offerte op maat.
           </p>
         </div>
@@ -25,6 +26,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Grid met pakketten -->
     <div
       class="grid w-full md:grid-cols-2 gap-5 mt-16 lg:grid-cols-4 flex-grow"
     >
@@ -80,6 +83,27 @@
           </p>
         </div>
       </NuxtLink>
+    </div>
+
+    <!-- Nieuwe Versterking Sectie -->
+    <div class="mt-16 bg-lightgreen p-10 rounded-lg">
+      <h2 class="text-3xl font-semibold text-darkgreen mb-5">
+        Versterking nodig binnen jouw team?
+      </h2>
+      <p class="text-lg text-darkgreen mb-6">
+        Ik bied niet alleen diensten aan, maar kan ook jouw team versterken als
+        freelancer of tijdelijke collega. Heb je versterking nodig op vlak van
+        webdesign, branding of development? Neem contact op en ontdek wat ik
+        voor jouw bedrijf kan betekenen.
+      </p>
+      <div class="flex justify-center md:justify-start">
+        <NuxtLink
+          to="/contact"
+          class="bg-darkgreen text-white px-6 py-3 text-lg rounded-md hover:bg-maingreen ease-out duration-300"
+        >
+          Neem contact op
+        </NuxtLink>
+      </div>
     </div>
   </div>
 </template>

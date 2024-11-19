@@ -22,9 +22,7 @@
         <p
           class="ml-5 text-xl mt-2 mb-2 h-36 border-l-[5px] border-darkgreen pl-[25px] text-darkgreen"
         >
-          We starten met een kennismaking om jouw doelen, visie en doelgroep te
-          begrijpen. Dit vormt de basis voor een sterk ontwerp en een effectieve
-          strategie.
+          We beginnen met een kennismakingsgesprek waarin we jouw doelen, ideeën en doelgroep bespreken. Zo zorg ik ervoor dat het ontwerp en de strategie perfect aansluiten bij jouw wensen.
         </p>
       </div>
       <div class="">
@@ -58,9 +56,7 @@
           </h3>
         </div>
         <p class="ml-5 mt-2 text-xl h-36 pl-[25px] text-darkgreen">
-          In deze fase breng ik het concept tot leven. Ik werk aan de visuele
-          identiteit of het webdesign, waarbij ik oog heb voor detail en
-          functionaliteit.
+          In deze fase werk ik jouw ideeën uit tot een ontwerp dat zowel visueel als functioneel sterk is. Ik zorg ervoor dat alles klopt en naadloos aansluit bij jouw wensen en verhaal.
         </p>
       </div>
     </div>

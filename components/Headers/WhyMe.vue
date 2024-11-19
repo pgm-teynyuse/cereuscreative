@@ -4,7 +4,7 @@
   >
     <div class="">
       <h2 class="text-6xl mb-5 text-darkgreen">
-        Waarom<br /><span class="font-semibold italic">kiezen voor mij?</span>
+        Waarom<br /><span class="font-semibold italic">samenwerken met mij?</span>
       </h2>
     </div>
 
@@ -20,9 +20,7 @@
           </h4>
         </div>
         <p class="text-darkgreen text-xl mt-2">
-          Elke samenwerking begint bij jouw verhaal. Door naar je te luisteren,
-          begrijp ik precies wat je zoekt, zodat ik het kan vertalen naar iets
-          unieks en krachtigs.
+          Elke samenwerking begint bij wie jij bent en wat je nodig hebt. Door goed naar je te luisteren, kan ik jouw visie omzetten in iets unieks en krachtigs.
         </p>
       </div>
 
@@ -33,13 +31,11 @@
             class="text-2xl text-darkgreen"
           />
           <h4 class="text-2xl font-semibold text-darkgreen">
-            Transparantie en flexibiliteit
+            Duidelijkheid en flexibiliteit
           </h4>
         </div>
         <p class="text-darkgreen text-xl mt-2">
-          Samen kijken we naar een aanpak die past bij jouw budget en wensen.
-          Verwacht geen verrassingen—ik zorg voor een eerlijke en heldere
-          communicatie.
+          We werken samen aan een aanpak die past bij jouw wensen en budget. Geen verrassingen onderweg, ik zorg voor eerlijke en heldere afspraken.
         </p>
       </div>
 
@@ -50,11 +46,11 @@
             class="text-2xl text-darkgreen"
           />
           <h4 class="text-2xl font-semibold text-darkgreen">
-            Kwaliteit die resultaten levert
+            Resultaten die tellen
           </h4>
         </div>
         <p class="text-darkgreen text-xl mt-2">
-          Mijn werk is meer dan mooi; het werkt. Ik ben pas tevreden wanneer jij
+          Mijn werk is meer dan mooi. Ik ben pas tevreden wanneer jij
           het resultaat ziet dat je zoekt.
         </p>
       </div>
@@ -66,12 +62,11 @@
             class="text-2xl text-darkgreen"
           />
           <h4 class="text-2xl font-semibold text-darkgreen">
-            Ondersteuning en partnerschap
+            Altijd ondersteuning
           </h4>
         </div>
         <p class="text-darkgreen text-xl mt-2">
-          Een project eindigt niet bij de oplevering. Ik sta ook na de lancering
-          voor je klaar voor eventuele updates of aanpassingen.
+          Mijn werk stopt niet bij de oplevering. Ook daarna blijf ik beschikbaar voor vragen, updates en aanpassingen, zodat alles blijft werken zoals jij het wil.
         </p>
       </div>
     </div>

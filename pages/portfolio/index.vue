@@ -1,7 +1,12 @@
 <template>
-  <div class="mb-96">
-    <h1 class="text-6xl font-semibold p-10 text-darkgreen">Portfolio</h1>
+  <div class=" mb-64">
+    <h1 class="text-6xl font-semibold pl-10 pt-10 text-darkgreen">Portfolio</h1>
+    <p class="text-lg text-maingreen mt-2 pl-10 pr-10">
+  Hier vind je een selectie van mijn projecten. <br> Van branding tot webdesign, elk project is gemaakt met oog voor detail en een focus op resultaat. Klik op een project om meer te ontdekken.
+</p>
+
     <div class="grid grid-cols-1 mt-16 sm:grid-cols-2 lg:grid-cols-3">
+      
       <div
         v-for="project in reversedProjects"
         :key="project.id"
@@ -31,7 +36,23 @@
           </div>
         </NuxtLink>
       </div>
+      
     </div>
+    <div class=" mt-48 text-center">
+  <h2 class="text-3xl font-semibold text-darkgreen mb-4">
+    Ook een uniek project laten maken?
+  </h2>
+  <p class="text-lg text-maingreen mb-6">
+    Neem contact op en laten we samen iets moois creëren.
+  </p>
+  <NuxtLink
+    to="/contact"
+    class="bg-darkgreen text-white px-6 py-3 text-lg hover:bg-maingreen"
+  >
+    Neem contact op
+  </NuxtLink>
+</div>
+
   </div>
 </template>
 

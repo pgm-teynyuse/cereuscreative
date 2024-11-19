@@ -40,7 +40,7 @@
     "slug": "vandotrans",
     "title": "Vandotrans",
     "image": "/images/covers/project4.jpg",
-    "description": "Logistiek Bedrijf",
+    "description": "Logistiek Bedrijf WordPress Website",
     "color": "#8f195a",
     "detail": {
       "client": "CVandotrans",
@@ -58,6 +58,18 @@
       "client": "Cereus Creative",
       "content": "Cereus Creative is mijn persoonlijke portfolio website. Het is een plek waar ik mijn projecten en creatieve werk kan delen met de wereld. De website is gebouwd met Nuxt.js en Tailwind CSS voor een snelle en gebruiksvriendelijke ervaring.",
       "technology": ["Nuxt.js", "TailwindCSS"]
+    }
+  },
+  {
+    "slug": "safe-place",
+    "title": "Safe Place",
+    "image": "/images/covers/project6.jpg",
+    "description": "Forum Platform",
+    "color": "#e9b308",
+    "detail": {
+      "client": "ArteveldeHS",
+      "content": "De applicatie is een platform voor jongeren die gepest worden, met functies zoals een forum, anonieme accounts, en een activiteitenpagina. Het is gebouwd met Laravel (PHP) voor de backend en Tailwind CSS voor een moderne, responsieve interface. Dankzij deze tools is het platform veilig, gebruiksvriendelijk en schaalbaar.",
+      "technology": ["Laravel", "TailwindCSS", "PHP"]
     }
   }
 ]

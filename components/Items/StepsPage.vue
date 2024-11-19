@@ -14,11 +14,7 @@
       <p
         class="ml-5 text-lg mt-2 mb-2 border-l-[5px] border-darkgreen pl-5 text-darkgreen"
       >
-        We beginnen met een grondige kennismaking waarin ik jouw doelen, visie,
-        en doelgroep in kaart breng. Samen bespreken we wat je precies wilt
-        bereiken en wie jouw ideale klant is. Deze fase is cruciaal omdat het
-        zorgt voor een diepgaand begrip van jouw merk, wat de basis vormt voor
-        een sterk ontwerp en een strategie die echt effect heeft.
+        We beginnen met een kennismakingsgesprek waarin we jouw doelen, ideeën en doelgroep bespreken. Zo zorg ik ervoor dat het ontwerp en de strategie perfect aansluiten bij jouw wensen.
       </p>
     </div>
     <div class="">
@@ -57,11 +53,7 @@
       <p
         class="ml-5 mt-2 text-lg mb-2 border-l-[5px] border-darkgreen pl-5 text-darkgreen"
       >
-        In deze fase breng ik het concept tot leven. Ik werk zorgvuldig aan de
-        visuele identiteit of het webdesign en let daarbij op zowel esthetiek
-        als functionaliteit. Elk detail wordt met aandacht uitgewerkt om een
-        samenhangend geheel te creëren dat bij jouw merk past en jouw boodschap
-        helder overbrengt.
+        In deze fase werk ik jouw ideeën uit tot een ontwerp dat zowel visueel als functioneel sterk is. Ik zorg ervoor dat alles klopt en naadloos aansluit bij jouw wensen en verhaal.
       </p>
     </div>
     <div class="">

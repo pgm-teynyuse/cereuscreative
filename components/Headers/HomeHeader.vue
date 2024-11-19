@@ -15,8 +15,8 @@
       <p class="text-sm sm:text-lg lg:text-4xl text-darkgreen mt-2">
         Gespecialiseerd in
         <span class="font-semibold italic">webdesign</span> en
-        <span class="font-semibold italic">branding</span> die <br />
-        kracht, veiligheid en duurzaamheid uitstralen.
+        <span class="font-semibold italic">branding</span> <br />
+        Veilig, stijlvol, en altijd krachtig.
       </p>
     </div>
   </div>

@@ -1,9 +1,14 @@
 import { defineNuxtConfig } from 'nuxt/config';
+import projects from './public/assets/data/projects.json';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
 export default defineNuxtConfig({
+  site: {
+    url: 'https://cereuscreative.com',
+    name: 'Cereus Creative',
+  },
   app: {
     head: {
       titleTemplate: '%s - Cereus Creative',
@@ -68,11 +73,8 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
   ],
 
-  sitemap: {
-  },
-
   plausible: {
-    domain: process.env.BASE_URL || 'localhost', 
+    domain: process.env.BASE_URL || 'localhost',
   },
 
   nitro: {

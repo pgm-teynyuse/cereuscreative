@@ -12,8 +12,7 @@
       <p
         class="text-base sm:text-lg md:text-xl lg:text-2xl text-maingreen mt-5"
       >
-        We vertalen jouw unieke merkverhaal naar een visuele en functionele
-        online ervaring die aansluit bij jouw doelgroep.
+        Ik breng jouw verhaal online tot leven, helemaal zoals jij het wil.
       </p>
     </div>
   </div>

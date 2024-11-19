@@ -30,21 +30,20 @@
         Volg en blijf op hoogte.
       </h2>
       <div class="flex mt-5 gap-4">
-        <NuxtLink to=""
+        <NuxtLink to="https://www.instagram.com/cereuscrtv/"
           ><img src="../public/assets/images/instagram.svg" alt="Instagram"
         /></NuxtLink>
-        <NuxtLink to=""
+        <NuxtLink to="https://www.facebook.com/61568421422105"
           ><img src="../public/assets/images/facebook.svg" alt="Facebook"
         /></NuxtLink>
-        <NuxtLink to=""
+        <NuxtLink to="https://www.linkedin.com/in/teynuryuseinov/"
           ><img src="../public/assets/images/linkedin.svg" alt="LinkedIn"
         /></NuxtLink>
       </div>
       <div class="text-darkgreen mt-10 text-sm md:text-base">
         <p>Teynur Yuseinov</p>
         <p>
-          <span class="font-semibold">©CereusCreative • </span>
-          <NuxtLink to="">Privacy Policy</NuxtLink>
+          <span class="font-semibold">©CereusCreative</span>
         </p>
       </div>
     </div>
