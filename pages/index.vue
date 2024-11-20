@@ -21,12 +21,11 @@ import WorkWithMe from '~/components/Items/WorkWithMe.vue';
 export default {
   setup() {
     useHead({
-      title: 'Home',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus Creative is a web development and design company that specializes in creating custom websites for small businesses and entrepreneurs.',
+          content: 'Ik ben Cereus Creative en ik help kleine bedrijven en ondernemers hun merk tot leven te brengen. Met op maat gemaakte websites en sterke visuele identiteiten zorg ik ervoor dat jouw verhaal online krachtig en onvergetelijk wordt neergezet.',
         },
       ],
     });
