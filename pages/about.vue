@@ -103,7 +103,6 @@
         <h3 class="text-3xl text-darkgreen mb-4">CMS</h3>
         <div class="text-maingreen space-y-2 text-lg">
           <p>WordPress</p>
-          <p>MySQL</p>
           <p>Strapi</p>
           <p>CraftCMS</p>
         </div>
