@@ -109,11 +109,11 @@
       </div>
 
       <div>
-        <h3 class="text-3xl text-darkgreen mb-4">Database</h3>
+        <h3 class="text-3xl text-darkgreen mb-4">Database/ORM</h3>
         <div class="text-maingreen space-y-2 text-lg">
           <p>PostgreSQL</p>
-          <p>MySQL</p>
           <p>Strapi</p>
+          <p>Prisma</p>
         </div>
       </div>
 
