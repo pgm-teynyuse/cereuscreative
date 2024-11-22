@@ -17,15 +17,17 @@ import StepsHome from '~/components/Headers/StepsHome.vue';
 import ProjectsHome from '~/components/Headers/ProjectsHome.vue';
 import Testimonial from '~/components/Items/Testimonial.vue';
 import WorkWithMe from '~/components/Items/WorkWithMe.vue';
+import { Title } from '#build/components';
 
 export default {
   setup() {
     useHead({
+      title: 'Home',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Ik ben Cereus Creative en ik help kleine bedrijven en ondernemers hun merk tot leven te brengen. Met op maat gemaakte websites en sterke visuele identiteiten zorg ik ervoor dat jouw verhaal online krachtig en onvergetelijk wordt neergezet.',
+          content: 'Cereus Creative helpt bedrijven met WordPress, op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });

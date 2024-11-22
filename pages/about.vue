@@ -130,14 +130,14 @@
 
 <script>
   export default {
-  setup() {
+    setup() {
     useHead({
       title: 'Over',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus Creative is a web development and design company that specializes in creating custom websites for small businesses and entrepreneurs.',
+          content: 'Cereus Creative helpt bedrijven met WordPress, op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });
