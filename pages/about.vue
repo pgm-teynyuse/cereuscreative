@@ -137,7 +137,7 @@
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus Creative helpt bedrijven met WordPress, op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
+          content: 'Cereus Creative helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });

@@ -3,6 +3,9 @@ import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'nl',
+      },
       titleTemplate: '%s - Cereus Creative',
       meta: [
         { charset: 'utf-8' },
@@ -47,6 +50,11 @@ export default defineNuxtConfig({
           rel: 'preconnect',
           href: 'https://fonts.gstatic.com',
           crossorigin: 'anonymous',
+        },
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico',
         },
       ],
     },

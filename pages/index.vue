@@ -17,7 +17,6 @@ import StepsHome from '~/components/Headers/StepsHome.vue';
 import ProjectsHome from '~/components/Headers/ProjectsHome.vue';
 import Testimonial from '~/components/Items/Testimonial.vue';
 import WorkWithMe from '~/components/Items/WorkWithMe.vue';
-import { Title } from '#build/components';
 
 export default {
   setup() {
@@ -27,7 +26,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus Creative helpt bedrijven met WordPress, op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
+          content: 'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });

@@ -23,7 +23,7 @@
           >
         </p>
         <h3 class="text-maingreen mt-2 font-bold">Telefoon</h3>
-        <p class="text-maingreen">+31 6 12345678</p>
+        <p class="text-maingreen">Binnenkort</p>
       </div>
       <h2 class="text-maingreen font-bold mt-10">
         Altijd bereikbaar via social media! <br />
@@ -64,7 +64,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus Creative is a web development and design company that specializes in creating custom websites for small businesses and entrepreneurs.',
+          content: 'Cereus Creative helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });
