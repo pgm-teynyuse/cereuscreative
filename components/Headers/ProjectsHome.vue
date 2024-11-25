@@ -4,9 +4,9 @@
       class="flex p-10 justify-between flex-col lg:flex-row md:flex-col md:items-start lg:items-center"
     >
       <div>
-        <h1 class="lg:text-6xl text-4xl mb-5 text-darkgreen">
+        <h2 class="lg:text-6xl text-4xl mb-5 text-darkgreen">
           Recente<br /><span class="font-semibold italic">Projecten</span>
-        </h1>
+        </h2>
       </div>
       <div class="md:hidden hidden lg:block">
         <NuxtLink

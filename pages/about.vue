@@ -1,9 +1,9 @@
 <template>
   <div class="p-10 mb-72 mx-auto">
     <div>
-      <h2 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
+      <h1 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
         Curriculum <br /><span class="italic text-maingreen">Vitae</span>
-      </h2>
+      </h1>
       <p class="text-lg md:text-xl text-maingreen mb-10">
         Hallo! Ik ben <span class="font-semibold italic">Teynur Yuseinov</span>,
         een ervaren <span class="font-semibold italic">webdesigner</span> en
@@ -137,7 +137,7 @@
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus Creative helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
+          content: 'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });

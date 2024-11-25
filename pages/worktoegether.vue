@@ -1,9 +1,9 @@
 <template>
   <div class="mb-72 mx-auto">
     <div class="p-10">
-      <h2 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
+      <h1 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
         Jouw partner voor <span class="italic text-maingreen">digitale groei</span>
-      </h2>
+      </h1>
       <p class="text-lg md:text-2xl font-bold text-maingreen">
         Kies voor samenwerking met mij en ontdek een partner die jouw visie vertaalt naar digitale oplossingen op maat.
       </p>

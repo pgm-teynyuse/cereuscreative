@@ -3,12 +3,12 @@
     <div
       class="flex flex-col border-t-8 lg:border-t-0 lg:border-b-8 pb-36 p-10 border-lightgreen justify-center"
     >
-      <h1
+      <h2
         class="font-light text-5xl lg:mt-0 sm:text-5xl md:text-4xl lg:text-5xl text-maingreen"
       >
         <span class="font-semibold italic">Van</span> merkverhaal
         <span class="font-semibold italic">tot</span> digitale beleving
-      </h1>
+      </h2>
       <p
         class="text-base sm:text-lg md:text-xl lg:text-2xl text-maingreen mt-5"
       >
