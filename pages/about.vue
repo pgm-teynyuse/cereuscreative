@@ -2,14 +2,14 @@
   <div class="p-10 mb-72 mx-auto">
     <div>
       <h1 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
-        Curriculum <br /><span class="italic text-maingreen">Vitae</span>
+        Over <br> <span class="italic text-maingreen">Teynur Yuseinov</span>
       </h1>
       <p class="text-lg md:text-xl text-maingreen mb-10">
-        Hallo! Ik ben <span class="font-semibold italic">Teynur Yuseinov</span>,
-        een ervaren <span class="font-semibold italic">webdesigner</span> en
+        Hallo! Ik ben een jonge <span class="font-semibold italic">webdesigner</span> en
         <span class="font-semibold italic">branding-specialist</span> met <br />
         een achtergrond in grafisch ontwerp en programmeren.
       </p>
+      
     </div>
 
     <div
@@ -129,18 +129,42 @@
 </template>
 
 <script>
-  export default {
-    setup() {
+
+export default {
+  setup() {
     useHead({
-      title: 'Over',
+      title: 'Teynur Yuseinov',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
+          content: 'Leer meer over Teynur Yuseinov, oprichter van Cereus Creative. Gespecialiseerd in webdesign, branding, en full-stack development in Vlaanderen.',
         },
       ],
+      script: [
+        {
+          type: 'application/ld+json',
+          json: {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Teynur Yuseinov",
+            "jobTitle": " Webdesigner & Branding Specialist",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Cereus Creative",
+              "url": "https://www.cereuscreative.be"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/teynuryuseinov/",
+              "https://www.instagram.com/cereuscrtv/"
+            ],
+            "url": "https://www.cereuscreative.be/about"
+          }
+        }
+      ]
     });
   },
 };
 </script>
+
+
