@@ -1,8 +1,11 @@
 import { defineNuxtConfig } from 'nuxt/config';
+import { useRuntimeConfig, useRoute } from '#imports';
 
 export default defineNuxtConfig({
+  
   app: {
     head: {
+      
       htmlAttrs: {
         lang: 'nl',
       },
@@ -10,6 +13,11 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          name: 'keywords',
+          content:
+            'webdesign, branding, cereus creative, cereus, creative, web, design, branding, website, webshop, webshop design, webshop development, webshop ontwikkeling, webshop bouwen, webshop maken, webshop laten maken, webshop laten bouwen, webshop laten ontwikkelen, webshop laten ontwerpen, webshop design, webshop design laten maken, webshop design laten bouwen, webshop design laten ontwikkelen',
+        },
         {
           hid: 'description',
           name: 'description',
@@ -36,6 +44,7 @@ export default defineNuxtConfig({
         },
         { name: 'twitter:card', content: 'summary_large_image' },
       ],
+      
       link: [
         {
           rel: 'preload',
@@ -71,9 +80,10 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/sitemap',
     '@nuxtjs/plausible',
+    '@nuxtjs/robots',
   ],
   plausible: {
-    domain: 'www.cereuscreative.be', // Aangepast naar alleen de domeinnaam
+    domain: 'www.cereuscreative.be',
   },
   nitro: {
     externals: {
@@ -82,7 +92,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      siteUrl: process.env.BASE_URL || 'https://www.cereuscreative.be', // Gebruik consistent een siteUrl
+      siteUrl: process.env.BASE_URL || 'https://www.cereuscreative.be',
     },
     gmailUser: process.env.GMAIL_USER,
     gmailPassword: process.env.GMAIL_PASSWORD,
