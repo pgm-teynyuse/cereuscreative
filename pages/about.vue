@@ -2,7 +2,7 @@
   <div class="p-10 mb-72 mx-auto">
     <div>
       <h1 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
-        Over <br> <span class="italic text-maingreen">Teynur Yuseinov</span>
+        Teynur Yuseinov
       </h1>
       <p class="text-lg md:text-xl text-maingreen mb-10">
         Hallo! Ik ben een jonge <span class="font-semibold italic">webdesigner</span> en
