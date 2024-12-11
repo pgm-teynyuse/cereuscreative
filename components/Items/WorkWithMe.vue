@@ -6,11 +6,11 @@
         class="flex justify-between flex-col lg:flex-row md:flex-col md:items-start lg:items-center"
       >
         <div>
-          <h1
+          <h2
             class="lg:text-6xl text-4xl mb-5 font-semibold italic text-darkgreen"
           >
             Samenwerken
-          </h1>
+          </h2>
           <p class="text-maingreen text-xl pb-10">
             Bekijk de pakketten die bij jouw bedrijf passen en <br />
             neem contact op voor een offerte op maat.
