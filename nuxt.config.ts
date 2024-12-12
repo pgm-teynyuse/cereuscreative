@@ -2,10 +2,8 @@ import { defineNuxtConfig } from 'nuxt/config';
 import { useRuntimeConfig, useRoute } from '#imports';
 
 export default defineNuxtConfig({
-  
   app: {
     head: {
-      
       htmlAttrs: {
         lang: 'nl',
       },
@@ -44,7 +42,7 @@ export default defineNuxtConfig({
         },
         { name: 'twitter:card', content: 'summary_large_image' },
       ],
-      
+
       link: [
         {
           rel: 'preload',
@@ -68,10 +66,14 @@ export default defineNuxtConfig({
       ],
     },
   },
-  plugins: [{ src: '~/plugins/fontawesome.js', mode: 'client' }],
+  plugins: [
+    { src: '~/plugins/fontawesome.js', mode: 'client' },
+    { src: '~/plugins/aos.client.js', mode: 'client' },
+  ],
   css: [
     '~/public/assets/css/main.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
+    'aos/dist/aos.css',
   ],
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
@@ -84,6 +86,24 @@ export default defineNuxtConfig({
   ],
   plausible: {
     domain: 'www.cereuscreative.be',
+  },
+  image: {
+    domains: ['www.cereuscreative.be'],
+    screens: {
+      sm: 320,
+      md: 640,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+    },
+    presets: {
+      default: {
+        modifiers: {
+          formats: ['webp', 'jpg'],
+          quality: 80,
+        },
+      },
+    },
   },
   nitro: {
     externals: {

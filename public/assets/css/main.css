@@ -26,3 +26,15 @@ body::-webkit-scrollbar {
 .clip-slant {
   clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
 }
+
+.project-fade-enter-active,
+.project-fade-leave-active {
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.project-fade-enter-from,
+.project-fade-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
+

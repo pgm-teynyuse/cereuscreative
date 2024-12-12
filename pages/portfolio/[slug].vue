@@ -40,10 +40,11 @@
         </ul>
       </div>
     </div>
-    <div class="lg:mt-20 ml-0 md:mt-10 lg:ml-40 md:-mt-40">
-      <img
+    <div class="lg:mt-20 ml-0 lg:ml-40 md:-mt-40">
+      <NuxtImg
         :src="currentProject.image"
         alt="Project cover"
+        loading="lazy"
         class="h-[300px] md:h-[600px] w-full object-cover"
       />
     </div>
@@ -58,10 +59,10 @@
         :key="index"
         class="h-full bg-gray-300"
       >
-        <img
-          v-if="image"
+        <NuxtImg
           :src="image"
           alt="Extra project image"
+          loading="lazy"
           class="h-full w-full object-cover"
         />
       </div>
@@ -71,6 +72,7 @@
     <h2>Project niet gevonden</h2>
   </div>
 </template>
+
 
 <script>
 import { useRoute } from 'vue-router';

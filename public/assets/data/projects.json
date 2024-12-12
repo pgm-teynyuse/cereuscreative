@@ -4,6 +4,8 @@
     "title": "Quibo",
     "image": "/images/covers/project1.jpg",
     "description": "Boekenruil platform",
+    "category": "website",
+    "date": "2024-06-25",
     "color": "#283F8B",
     "hoverColor": "#1E2D6E",
     "detail": {
@@ -17,6 +19,8 @@
     "title": "Sweet Tooth",
     "image": "/images/covers/project2.jpg",
     "description": "Bakkerij Merkidentiteit",
+    "category": "merkidentiteit",
+    "date": "2024-01-20",
     "color": "#DAC8B2",
     "detail": {
       "client": "Serhat Eyigün",
@@ -27,8 +31,10 @@
   {
     "slug": "studio-t",
     "title": "Studio T",
-    "image": "/images/covers/project3.jpg",
     "description": "Digital Agency",
+    "category": "website",
+    "date": "2022-11-25",
+    "image": "/images/covers/project3.jpg",
     "color": "#ED6653",
     "detail": {
       "client": "Studio T",
@@ -39,6 +45,8 @@
   {
     "slug": "vandotrans",
     "title": "Vandotrans",
+    "category": "website",
+    "date": "2024-05-15",
     "image": "/images/covers/project4.jpg",
     "description": "Logistiek Bedrijf WordPress Website",
     "color": "#8f195a",
@@ -51,6 +59,8 @@
   {
     "slug": "cereus-creative",
     "title": "Cereus Creative",
+    "date": "2024-10-25",
+    "category": "website",
     "image": "/images/covers/project5.jpg",
     "description": "Portfolio Website",
     "color": "#7C845E",
@@ -63,6 +73,8 @@
   {
     "slug": "safe-place",
     "title": "Safe Place",
+    "category": "website",
+    "date": "2024-01-25",
     "image": "/images/covers/project6.jpg",
     "description": "Forum Platform",
     "color": "#e9b308",
@@ -75,15 +87,17 @@
   {
     "slug": "twins-see",
     "title": "Twins See",
+    "category": "merkidentiteit",
+    "date": "2022-03-25",
     "image": "/images/covers/project7.jpg",
     "description": "Oogartsen Merkidentiteit",
     "color": "#0A2D44",
     "detail": {
-      "client": "TwinsSee - Martha en Carla",
+      "client": "Twins See - Martha en Carla",
       "content": "Voor Twins See, de optiek van de tweelingzussen Martha en Carla, heb ik een volledige branding ontworpen die hun verhaal en missie weerspiegelt. Het merk draait om een persoonlijke en toegankelijke benadering, gecombineerd met professionaliteit en innovatie. Dit komt tot uiting in het logo, dat met zijn moderne vormen en kleuren het idee van tweelingkracht en harmonie uitstraalt. Daarnaast zijn er visuele elementen ontwikkeld, zoals iconen en verpakkingsdesign, die de verschillende diensten en producten duidelijk communiceren. Ook de posters en visitekaartjes dragen bij aan een consistente merkidentiteit, waardoor Twins See herkenbaar en professioneel overkomt in alle uitingen. Met deze branding wordt het verhaal van Martha en Carla tot leven gebracht en wordt hun optiek gepositioneerd als een warme en betrouwbare plek waar klanten niet alleen voor brillen en lenzen terechtkunnen, maar ook voor een persoonlijke ervaring.",
       "technology": ["Adobe Illustrator", "Adobe Photoshop"]
     },
-    "images":{
+    "images": {
       "image1": "/images/projects/twins-see/twins-see-1.jpg",
       "image2": "/images/projects/twins-see/twins-see-2.jpg",
       "image3": "/images/projects/twins-see/twins-see-3.jpg"
@@ -92,6 +106,8 @@
   {
     "slug": "dija",
     "title": "Dija",
+    "date": "2022-02-25",
+    "category": "merkidentiteit",
     "image": "/images/covers/project8.jpg",
     "description": "Drank Merkidentiteit",
     "color": "#B87E8D",
@@ -100,7 +116,7 @@
       "content": "DIJA is een merk dat frisheid en energie uitstraalt, perfect gevangen in de ontwerpen voor hun bruisende dranken. Met smaken zoals kiwi, watermeloen en citroen, brengt DIJA niet alleen smaak, maar ook een visueel aantrekkelijke beleving. Het gebruik van levendige kleuren en speelse patronen benadrukt de natuurlijke en verfrissende eigenschappen van het product. De branding weerspiegelt een moderne en zomerse vibe, terwijl de verpakking uitnodigt tot een verfrissende ervaring. DIJA nodigt je uit om elke slok sprankelend te maken!",
       "technology": ["Adobe Illustrator", "Adobe Photoshop"]
     },
-    "images":{
+    "images": {
       "image1": "/images/projects/dija/dija-1.jpg",
       "image2": "/images/projects/dija/dija-2.jpg",
       "image3": "/images/projects/dija/dija-3.jpg"

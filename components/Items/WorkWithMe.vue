@@ -1,7 +1,6 @@
 <template>
   <div class="p-10 bg-white pt-40 pb-40">
-    <!-- Bestaande Samenwerken Sectie -->
-    <div>
+    <div data-aos="fade-up">
       <div
         class="flex justify-between flex-col lg:flex-row md:flex-col md:items-start lg:items-center"
       >
@@ -29,6 +28,7 @@
 
     <!-- Grid met pakketten -->
     <div
+    data-aos="fade-up"
       class="grid w-full md:grid-cols-2 gap-5 mt-16 lg:grid-cols-4 flex-grow"
     >
       <NuxtLink to="/worktoegether">
@@ -86,7 +86,7 @@
     </div>
 
     <!-- Nieuwe Versterking Sectie -->
-    <div class="mt-16 bg-lightgreen p-10 rounded-lg">
+    <div data-aos="fade-up" class="mt-16 bg-lightgreen p-10 rounded-lg">
       <h2 class="text-3xl font-semibold text-darkgreen mb-5">
         Versterking nodig binnen jouw team?
       </h2>

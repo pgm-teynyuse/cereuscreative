@@ -21,6 +21,7 @@
     "@nuxtjs/robots": "^5.0.1",
     "@nuxtjs/sitemap": "^6.1.5",
     "@sendgrid/mail": "^8.1.4",
+    "aos": "^2.3.4",
     "dotenv": "^16.4.5",
     "lottie-web": "^5.12.2",
     "nodemailer": "^6.9.16",

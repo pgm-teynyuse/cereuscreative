@@ -4,7 +4,7 @@
       class="flex p-10 justify-between flex-col lg:flex-row md:flex-col md:items-start lg:items-center"
     >
       <div>
-        <h2 class="lg:text-6xl text-4xl mb-5 text-darkgreen">
+        <h2 data-aos="fade-up" class="lg:text-6xl text-4xl mb-5 text-darkgreen">
           Recente<br /><span class="font-semibold italic">Projecten</span>
         </h2>
       </div>
@@ -17,7 +17,7 @@
         </NuxtLink>
       </div>
     </div>
-    <div class="grid grid-cols-1 mt-16 sm:grid-cols-2 lg:grid-cols-3">
+    <div data-aos="fade-up" class="grid grid-cols-1 mt-16 sm:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="project in recentProjects"
         :key="project.id"
@@ -30,10 +30,13 @@
           <div
             class="w-full h-full transition-transform duration-300 group-hover:scale-105"
           >
-            <img
+            <NuxtImg
               class="w-full h-full object-cover transition-opacity duration-300"
               :src="project.image || '/images/covers/noimage.jpg'"
               alt="project image"
+              :sizes="['320px', '640px', '1024px']"
+              format="webp"
+              loading="lazy"
             />
           </div>
           <div
@@ -57,6 +60,7 @@
   </div>
 </template>
 
+
 <script>
 import projects from '../../public/assets/data/projects.json';
 
@@ -68,8 +72,10 @@ export default {
   },
   computed: {
     recentProjects() {
-      // Reverse the projects array and take the last three projects
-      return this.projects.slice().reverse().slice(0, 3);
+      return this.projects
+        .slice() 
+        .sort((a, b) => new Date(b.date) - new Date(a.date)) 
+        .slice(0, 3); 
     },
   },
 };

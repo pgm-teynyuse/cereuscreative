@@ -2,13 +2,13 @@
   <div
     class="flex items-center bg-white p-10 pt-52 pb-52 gap-32 mt-40 justify-between"
   >
-    <div class="w-2/5">
-      <div class="">
+    <div data-aos="fade-up" class="w-2/5">
+      <div data-aos="fade-up">
         <h2 class="text-6xl mb-5 text-darkgreen">
           Samen<br /><span class="font-semibold italic">naar succes</span>
         </h2>
       </div>
-      <div class="">
+      <div >
         <div class="flex items-center">
           <p
             class="bg-darkgreen flex justify-center items-center w-10 h-10 text-3xl font-bold text-middlegreen rounded-full"
@@ -60,7 +60,7 @@
         </p>
       </div>
     </div>
-    <div class="w-2/5">
+    <div data-aos="fade-up" class="w-2/5">
       <div>
         <img
           class="w-[300px] mb-2 ml-[16px]"

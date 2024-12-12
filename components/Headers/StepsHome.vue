@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="hidden lg:block">
+    <div  class="hidden lg:block">
       <StepsWeb />
     </div>
-    <div class="block lg:hidden">
+    <div  class="block lg:hidden">
       <StepsMobile />
     </div>
   </div>

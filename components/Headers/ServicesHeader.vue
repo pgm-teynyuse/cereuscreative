@@ -1,5 +1,5 @@
 <template>
-  <div class=" ">
+  <div data-aos="fade-up">
     <div
       class="flex flex-col border-t-8 lg:border-t-0 lg:border-b-8 pb-36 p-10 border-lightgreen justify-center"
     >
@@ -17,11 +17,11 @@
     </div>
   </div>
 
-  <div class="relative -mt-44 z-30 hidden lg:block">
+  <div data-aos="fade-up" class="relative -mt-44 z-30 hidden lg:block">
     <ServicesHome />
   </div>
 
-  <div class="block -mt-24 lg:hidden">
+  <div data-aos="fade-up" class="block -mt-24 lg:hidden">
     <ServicesHomeMobile />
   </div>
 </template>
