@@ -2,7 +2,7 @@
   <div
     class="flex flex-col box-border max-w-screen-2xl m-auto md:flex-row justify-between items-start gap-y-16 gap-x-16 p-10 mx-auto"
   >
-    <div class="w-full md:w-1/2">
+    <div data-aos="fade-up" class="w-full md:w-1/2">
       <h1 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
         Contact
       </h1>
@@ -47,7 +47,7 @@
         </p>
       </div>
     </div>
-    <div class="w-full md:w-1/2">
+    <div data-aos-duration="1000" data-aos="fade-up" class="w-full md:w-1/2">
       <ContactForm />
     </div>
   </div>

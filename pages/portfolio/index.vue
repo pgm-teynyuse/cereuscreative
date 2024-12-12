@@ -1,7 +1,12 @@
 <template>
   <div class="box-border max-w-screen-2xl m-auto mb-64">
-    <h1 class="text-6xl font-semibold pl-10 pt-10 text-darkgreen">Portfolio</h1>
-    <p class="text-lg text-maingreen mt-2 pl-10 pr-10">
+    <h1
+      data-aos="fade-up"
+      class="text-6xl font-semibold pl-10 pt-10 text-darkgreen"
+    >
+      Portfolio
+    </h1>
+    <p data-aos="fade-up" class="text-lg text-maingreen mt-2 pl-10 pr-10">
       Hier vind je een selectie van mijn projecten. <br />
       Van branding tot webdesign, elk project is gemaakt met oog voor detail en
       een focus op resultaat. Klik op een project om meer te ontdekken.
@@ -10,6 +15,7 @@
     <!-- Filter Knoppen -->
     <div class="pl-10 mt-10 flex space-x-2">
       <button
+        data-aos="fade-up"
         @click="selectedCategory = ''"
         :class="{
           'bg-darkgreen text-white': selectedCategory === '',
@@ -20,6 +26,7 @@
         Alle
       </button>
       <button
+        data-aos="fade-up"
         @click="selectedCategory = 'merkidentiteit'"
         :class="{
           'bg-darkgreen text-white': selectedCategory === 'merkidentiteit',
@@ -30,6 +37,7 @@
         Merkidentiteit
       </button>
       <button
+        data-aos="fade-up"
         @click="selectedCategory = 'website'"
         :class="{
           'bg-darkgreen text-white': selectedCategory === 'website',
@@ -41,15 +49,17 @@
       </button>
     </div>
 
-    <!-- Projecten Grid met Transitions -->
+    <!-- Projecten Grid met Vertraagde Animatie -->
     <transition-group
       name="project-fade"
       tag="div"
       class="grid grid-cols-1 mt-16 sm:grid-cols-2 lg:grid-cols-3"
     >
       <div
-        v-for="project in filteredProjects"
+        v-for="(project, index) in filteredProjects"
         :key="project.id"
+        data-aos="fade-up"
+        :data-aos-delay="index * 100"
         class="relative group w-full h-96 overflow-hidden text-darkgreen"
       >
         <NuxtLink

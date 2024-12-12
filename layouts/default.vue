@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MenuBar class="block md:hidden" />
+    <MenuBar data-aos="fade-down" class="block md:hidden" />
     <SiteHeader class="hidden md:block" />
     <NuxtPage />
     <Footer v-if="!isContactPage && !isPortfolioPage" />
