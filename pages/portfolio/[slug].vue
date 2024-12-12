@@ -40,7 +40,7 @@
         </ul>
       </div>
     </div>
-    <div class="lg:mt-20 ml-0 md:ab mt-10 lg:ml-40 md:-mt-40">
+    <div class="lg:mt-20 ml-0 md:mt-10 lg:ml-40 md:-mt-40">
       <img
         :src="currentProject.image"
         alt="Project cover"
@@ -53,9 +53,18 @@
       </p>
     </div>
     <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
-      <div class="h-40 bg-gray-300"></div>
-      <div class="h-40 bg-gray-400"></div>
-      <div class="h-40 bg-gray-500"></div>
+      <div
+        v-for="(image, index) in projectImages"
+        :key="index"
+        class="h-full bg-gray-300"
+      >
+        <img
+          v-if="image"
+          :src="image"
+          alt="Extra project image"
+          class="h-full w-full object-cover"
+        />
+      </div>
     </div>
   </div>
   <div v-else class="p-10 mb-40">
@@ -70,28 +79,39 @@ import projects from '../../public/assets/data/projects.json';
 
 export default {
   setup() {
-    const route = useRoute();  // Haal de route op
+    const route = useRoute(); 
     const currentProject = computed(() => {
-      const slug = route.params.slug;  // Haal de slug uit de route
+      const slug = route.params.slug; 
       return projects.find(
         (project) =>
           project.slug.toLowerCase().trim() === slug.toLowerCase().trim()
       );
     });
 
+    const projectImages = computed(() => {
+      if (currentProject.value && currentProject.value.images) {
+        return Object.values(currentProject.value.images);
+      }
+      return [];
+    });
+
     useHead({
-      title: currentProject.value ? currentProject.value.title : 'Project niet gevonden',
+      title: currentProject.value
+        ? currentProject.value.title
+        : 'Project niet gevonden',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
+          content:
+            'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });
 
     return {
       currentProject,
+      projectImages,
     };
   },
 };

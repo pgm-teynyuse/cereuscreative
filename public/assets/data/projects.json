@@ -21,7 +21,7 @@
     "detail": {
       "client": "Serhat Eyigün",
       "content": "Sweet Tooth is de bakkerij van Serhat, waar hij verrukkelijke cheesecakes en andere zoetigheden creëert. Voor Sweet Tooth heb ik een compleet brandingpakket ontworpen dat elke klant aanspreekt en de essentie van zijn ambacht weerspiegelt. Van stijlvolle verpakkingen tot elegante logo’s en kleuren die het merk versterken – alles is zorgvuldig afgestemd om de zoete ervaring van Sweet Tooth naar een hoger niveau te tillen.",
-      "technology": ["Adobe Illustrator", "WooCommerce", "TailwindCSS"]
+      "technology": ["Adobe Illustrator, Adobe Photoshop"]
     }
   },
   {
@@ -70,6 +70,40 @@
       "client": "ArteveldeHS",
       "content": "De applicatie is een platform voor jongeren die gepest worden, met functies zoals een forum, anonieme accounts, en een activiteitenpagina. Het is gebouwd met Laravel (PHP) voor de backend en Tailwind CSS voor een moderne, responsieve interface. Dankzij deze tools is het platform veilig, gebruiksvriendelijk en schaalbaar.",
       "technology": ["Laravel", "TailwindCSS", "PHP"]
+    }
+  },
+  {
+    "slug": "twins-see",
+    "title": "Twins See",
+    "image": "/images/covers/project7.jpg",
+    "description": "Oogartsen Merkidentiteit",
+    "color": "#0A2D44",
+    "detail": {
+      "client": "TwinsSee - Martha en Carla",
+      "content": "Voor Twins See, de optiek van de tweelingzussen Martha en Carla, heb ik een volledige branding ontworpen die hun verhaal en missie weerspiegelt. Het merk draait om een persoonlijke en toegankelijke benadering, gecombineerd met professionaliteit en innovatie. Dit komt tot uiting in het logo, dat met zijn moderne vormen en kleuren het idee van tweelingkracht en harmonie uitstraalt. Daarnaast zijn er visuele elementen ontwikkeld, zoals iconen en verpakkingsdesign, die de verschillende diensten en producten duidelijk communiceren. Ook de posters en visitekaartjes dragen bij aan een consistente merkidentiteit, waardoor Twins See herkenbaar en professioneel overkomt in alle uitingen. Met deze branding wordt het verhaal van Martha en Carla tot leven gebracht en wordt hun optiek gepositioneerd als een warme en betrouwbare plek waar klanten niet alleen voor brillen en lenzen terechtkunnen, maar ook voor een persoonlijke ervaring.",
+      "technology": ["Adobe Illustrator", "Adobe Photoshop"]
+    },
+    "images":{
+      "image1": "/images/projects/twins-see/twins-see-1.jpg",
+      "image2": "/images/projects/twins-see/twins-see-2.jpg",
+      "image3": "/images/projects/twins-see/twins-see-3.jpg"
+    }
+  },
+  {
+    "slug": "dija",
+    "title": "Dija",
+    "image": "/images/covers/project8.jpg",
+    "description": "Drank Merkidentiteit",
+    "color": "#B87E8D",
+    "detail": {
+      "client": "Dija",
+      "content": "DIJA is een merk dat frisheid en energie uitstraalt, perfect gevangen in de ontwerpen voor hun bruisende dranken. Met smaken zoals kiwi, watermeloen en citroen, brengt DIJA niet alleen smaak, maar ook een visueel aantrekkelijke beleving. Het gebruik van levendige kleuren en speelse patronen benadrukt de natuurlijke en verfrissende eigenschappen van het product. De branding weerspiegelt een moderne en zomerse vibe, terwijl de verpakking uitnodigt tot een verfrissende ervaring. DIJA nodigt je uit om elke slok sprankelend te maken!",
+      "technology": ["Adobe Illustrator", "Adobe Photoshop"]
+    },
+    "images":{
+      "image1": "/images/projects/dija/dija-1.jpg",
+      "image2": "/images/projects/dija/dija-2.jpg",
+      "image3": "/images/projects/dija/dija-3.jpg"
     }
   }
 ]
