@@ -6,7 +6,10 @@
       class="absolute left-0 right-0 top-0 -z-10 w-[310px] rounded-full bg-darkgreen opacity-20 blur-[100px]"
     ></div>
   </div>
-  <div data-aos="fade-up" class="w-full h-svh flex justify-center items-center text-center">
+  <div
+    data-aos="fade-up"
+    class="w-full h-svh flex justify-center items-center text-center"
+  >
     <div class="flex flex-col justify-center items-center p-4 sm:p-10 lg:p-10">
       <h1 class="text-4xl font-normal sm:text-4xl lg:text-7xl text-maingreen">
         Welkom bij <br />

@@ -1,9 +1,10 @@
 <template>
-  <div class="mb-64">
+  <div class="box-border max-w-screen-2xl m-auto mb-64">
     <h1 class="text-6xl font-semibold pl-10 pt-10 text-darkgreen">Portfolio</h1>
     <p class="text-lg text-maingreen mt-2 pl-10 pr-10">
       Hier vind je een selectie van mijn projecten. <br />
-      Van branding tot webdesign, elk project is gemaakt met oog voor detail en een focus op resultaat. Klik op een project om meer te ontdekken.
+      Van branding tot webdesign, elk project is gemaakt met oog voor detail en
+      een focus op resultaat. Klik op een project om meer te ontdekken.
     </p>
 
     <!-- Filter Knoppen -->
@@ -98,44 +99,44 @@
   </div>
 </template>
 
-
 <script>
 import projects from '../../public/assets/data/projects.json';
 
 export default {
-    setup() {
+  setup() {
     useHead({
       title: 'Portfolio',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
+          content:
+            'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });
   },
   data() {
-      return {
-        projects,
-        selectedCategory: '', 
-      };
-    },
-      computed: {
-        sortedProjects() {
-          return this.projects
-            .slice()
-            .sort((a, b) => new Date(b.date) - new Date(a.date));
-        },
-        filteredProjects() {
-          const sorted = this.sortedProjects;
-          if (this.selectedCategory) {
-            return sorted.filter((project) => project.category === this.selectedCategory);
-          }
-          return sorted;
-        }
-      }
+    return {
+      projects,
+      selectedCategory: '',
     };
+  },
+  computed: {
+    sortedProjects() {
+      return this.projects
+        .slice()
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+    },
+    filteredProjects() {
+      const sorted = this.sortedProjects;
+      if (this.selectedCategory) {
+        return sorted.filter(
+          (project) => project.category === this.selectedCategory
+        );
+      }
+      return sorted;
+    },
+  },
+};
 </script>
-
-

@@ -29,7 +29,9 @@ body::-webkit-scrollbar {
 
 .project-fade-enter-active,
 .project-fade-leave-active {
-  transition: opacity 0.5s, transform 0.5s;
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
 }
 
 .project-fade-enter-from,
@@ -37,4 +39,3 @@ body::-webkit-scrollbar {
   opacity: 0;
   transform: translateY(10px);
 }
-

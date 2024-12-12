@@ -3,11 +3,10 @@ import 'aos/dist/aos.css';
 
 export default defineNuxtPlugin((nuxtApp) => {
   AOS.init({
-    duration: 800,
-    easing: 'ease-in-out', 
-    offset: 30, 
-    once: false, 
-    mirror: true, 
-    anchorPlacement: 'top-bottom', 
+    duration: 1100,
+    easing: 'ease-in-out',
+    once: false,
+    mirror: true,
+    anchorPlacement: 'top-bottom',
   });
 });

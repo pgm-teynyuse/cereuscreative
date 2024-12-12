@@ -14,7 +14,9 @@
       <p
         class="ml-5 text-lg mt-2 mb-2 border-l-[5px] border-darkgreen pl-5 text-darkgreen"
       >
-        We beginnen met een kennismakingsgesprek waarin we jouw doelen, ideeën en doelgroep bespreken. Zo zorg ik ervoor dat het ontwerp en de strategie perfect aansluiten bij jouw wensen.
+        We beginnen met een kennismakingsgesprek waarin we jouw doelen, ideeën
+        en doelgroep bespreken. Zo zorg ik ervoor dat het ontwerp en de
+        strategie perfect aansluiten bij jouw wensen.
       </p>
     </div>
     <div class="">
@@ -53,7 +55,9 @@
       <p
         class="ml-5 mt-2 text-lg mb-2 border-l-[5px] border-darkgreen pl-5 text-darkgreen"
       >
-        In deze fase werk ik jouw ideeën uit tot een ontwerp dat zowel visueel als functioneel sterk is. Ik zorg ervoor dat alles klopt en naadloos aansluit bij jouw wensen en verhaal.
+        In deze fase werk ik jouw ideeën uit tot een ontwerp dat zowel visueel
+        als functioneel sterk is. Ik zorg ervoor dat alles klopt en naadloos
+        aansluit bij jouw wensen en verhaal.
       </p>
     </div>
     <div class="">

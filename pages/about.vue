@@ -1,21 +1,23 @@
 <template>
-  <div class="p-10 mb-72 mx-auto">
-    <div>
+  <div class="p-10 mb-72 box-border max-w-screen-2xl m-auto">
+    <div data-aos="fade-up">
       <h1 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
         Teynur Yuseinov
       </h1>
       <p class="text-lg md:text-xl text-maingreen mb-10">
-        Hallo! Ik ben een jonge <span class="font-semibold italic">webdesigner</span> en
+        Hallo! Ik ben een jonge
+        <span class="font-semibold italic">webdesigner</span> en
         <span class="font-semibold italic">branding-specialist</span> met <br />
         een achtergrond in grafisch ontwerp en programmeren.
       </p>
-      
     </div>
 
     <div
+      data-aos-duration="1000"
+      data-aos="fade-up"
       class="grid border-b-4 border-maingreen pb-14 grid-cols-1 md:grid-cols-3 gap-10 mt-10"
     >
-      <div>
+      <div data-aos-duration="1000" data-aos="fade-up">
         <h3 class="text-3xl text-darkgreen mb-4">Opleiding</h3>
         <div class="text-maingreen space-y-6">
           <div>
@@ -34,7 +36,7 @@
         </div>
       </div>
 
-      <div>
+      <div data-aos="fade-up">
         <h3 class="text-3xl text-darkgreen mb-4">Ervaring</h3>
         <div class="text-maingreen space-y-6">
           <div>
@@ -50,7 +52,7 @@
         </div>
       </div>
 
-      <div>
+      <div data-aos-duration="1000" data-aos="fade-up">
         <h3 class="text-3xl text-darkgreen mb-4">Stage</h3>
         <div class="text-maingreen space-y-6">
           <div>
@@ -67,7 +69,10 @@
       </div>
     </div>
 
-    <div class="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div
+      data-aos="fade-up"
+      class="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+    >
       <div>
         <h3 class="text-3xl text-darkgreen mb-4">Vaardigheden</h3>
         <div class="text-maingreen space-y-2 text-lg">
@@ -78,7 +83,7 @@
         </div>
       </div>
 
-      <div>
+      <div data-aos-duration="1000" data-aos="fade-up">
         <h3 class="text-3xl text-darkgreen mb-4">Programmeertalen</h3>
         <div class="text-maingreen space-y-2 text-lg">
           <p>JavaScript / TypeScript</p>
@@ -89,7 +94,7 @@
         </div>
       </div>
 
-      <div>
+      <div data-aos="fade-up">
         <h3 class="text-3xl text-darkgreen mb-4">Frameworks</h3>
         <div class="text-maingreen space-y-2 text-lg">
           <p>ReactJS / NextJS</p>
@@ -99,7 +104,7 @@
         </div>
       </div>
 
-      <div>
+      <div data-aos-duration="1000" data-aos="fade-up">
         <h3 class="text-3xl text-darkgreen mb-4">CMS</h3>
         <div class="text-maingreen space-y-2 text-lg">
           <p>WordPress</p>
@@ -108,7 +113,7 @@
         </div>
       </div>
 
-      <div>
+      <div data-aos="fade-up">
         <h3 class="text-3xl text-darkgreen mb-4">Database/ORM</h3>
         <div class="text-maingreen space-y-2 text-lg">
           <p>PostgreSQL</p>
@@ -117,7 +122,7 @@
         </div>
       </div>
 
-      <div>
+      <div data-aos-duration="1000" data-aos="fade-up">
         <h3 class="text-3xl text-darkgreen mb-4">Design</h3>
         <div class="text-maingreen space-y-2 text-lg">
           <p>Figma</p>
@@ -129,7 +134,6 @@
 </template>
 
 <script>
-
 export default {
   setup() {
     useHead({
@@ -138,33 +142,32 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Leer meer over Teynur Yuseinov, oprichter van Cereus Creative. Gespecialiseerd in webdesign, branding, en full-stack development in Vlaanderen.',
+          content:
+            'Leer meer over Teynur Yuseinov, oprichter van Cereus Creative. Gespecialiseerd in webdesign, branding, en full-stack development in Vlaanderen.',
         },
       ],
       script: [
         {
           type: 'application/ld+json',
           json: {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Teynur Yuseinov",
-            "jobTitle": " Webdesigner & Branding Specialist",
-            "worksFor": {
-              "@type": "Organization",
-              "name": "Cereus Creative",
-              "url": "https://www.cereuscreative.be"
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: 'Teynur Yuseinov',
+            jobTitle: ' Webdesigner & Branding Specialist',
+            worksFor: {
+              '@type': 'Organization',
+              name: 'Cereus Creative',
+              url: 'https://www.cereuscreative.be',
             },
-            "sameAs": [
-              "https://www.linkedin.com/in/teynuryuseinov/",
-              "https://www.instagram.com/cereuscrtv/"
+            sameAs: [
+              'https://www.linkedin.com/in/teynuryuseinov/',
+              'https://www.instagram.com/cereuscrtv/',
             ],
-            "url": "https://www.cereuscreative.be/about"
-          }
-        }
-      ]
+            url: 'https://www.cereuscreative.be/about',
+          },
+        },
+      ],
     });
   },
 };
 </script>
-
-

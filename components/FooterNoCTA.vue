@@ -3,7 +3,7 @@
     <div
       class="flex flex-col-reverse lg:flex-row bg-middlegreen justify-between pt-40 md:pt-20 p-6 md:p-10"
     >
-      <div class=" lg:mt-0">
+      <div class="lg:mt-0">
         <div class="flex gap-2 mt-5 mb-10 md:mb-20">
           <NuxtLink to="https://www.instagram.com/cereuscrtv/"
             ><img src="../public/assets/images/instagram.svg" alt=""

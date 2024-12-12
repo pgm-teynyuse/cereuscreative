@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col md:flex-row justify-between items-start gap-y-16 gap-x-16 p-10 mx-auto"
+    class="flex flex-col box-border max-w-screen-2xl m-auto md:flex-row justify-between items-start gap-y-16 gap-x-16 p-10 mx-auto"
   >
     <div class="w-full md:w-1/2">
       <h1 class="text-4xl md:text-6xl font-bold text-darkgreen mb-6">
@@ -57,14 +57,15 @@
 import ContactForm from '~/components/Items/ContactForm.vue';
 
 export default {
-    setup() {
+  setup() {
     useHead({
       title: 'Contact',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
+          content:
+            'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
       ],
     });

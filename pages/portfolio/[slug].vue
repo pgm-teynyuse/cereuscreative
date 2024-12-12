@@ -1,5 +1,5 @@
 <template>
-  <div v-if="currentProject" class="mb-96">
+  <div v-if="currentProject" class="mb-96 box-border max-w-screen-2xl m-auto">
     <div class="p-10">
       <h1
         :style="{ color: currentProject.color }"
@@ -11,7 +11,7 @@
       <NuxtLink
         to="/portfolio"
         :style="{ color: currentProject.color }"
-        class="px-2 py-3 ease-out duration-500 transform text-xl"
+        class=" ease-out duration-500 transform text-xl"
       >
         Alle projecten
       </NuxtLink>
@@ -73,7 +73,6 @@
   </div>
 </template>
 
-
 <script>
 import { useRoute } from 'vue-router';
 import { computed } from 'vue';
@@ -81,9 +80,9 @@ import projects from '../../public/assets/data/projects.json';
 
 export default {
   setup() {
-    const route = useRoute(); 
+    const route = useRoute();
     const currentProject = computed(() => {
-      const slug = route.params.slug; 
+      const slug = route.params.slug;
       return projects.find(
         (project) =>
           project.slug.toLowerCase().trim() === slug.toLowerCase().trim()
