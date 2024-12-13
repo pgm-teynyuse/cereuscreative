@@ -14,7 +14,7 @@ export default defineNuxtConfig({
         {
           name: 'keywords',
           content:
-            'webdesign, branding, cereus creative, cereus, creative, web, design, branding, website, webshop, webshop design, webshop development, webshop ontwikkeling, webshop bouwen, webshop maken, webshop laten maken, webshop laten bouwen, webshop laten ontwikkelen, webshop laten ontwerpen, webshop design, webshop design laten maken, webshop design laten bouwen, webshop design laten ontwikkelen',
+            'webdesign, branding, cereus creative, website ontwikkeling, webshop design, merkidentiteit',
         },
         {
           hid: 'description',

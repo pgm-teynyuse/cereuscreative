@@ -49,10 +49,7 @@ export default {
       this.showMenu = !this.showMenu;
     },
   },
-  inheritAttrs: false, // Voorkomt dat attributen automatisch worden toegewezen
+  inheritAttrs: false, 
 };
 </script>
 
-<style scoped>
-/* Optionele styling voor MenuBar */
-</style>

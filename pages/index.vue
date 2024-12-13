@@ -21,7 +21,7 @@ import WorkWithMe from '~/components/Items/WorkWithMe.vue';
 export default {
   setup() {
     useHead({
-      title: 'Home',
+      title: 'Cereus Creative',
       meta: [
         {
           hid: 'description',
@@ -29,6 +29,11 @@ export default {
           content:
             'Cereus helpt bedrijven met WordPress of op maat gemaakte websites en sterke visuele identiteiten, zodat jouw verhaal krachtig en onvergetelijk wordt.',
         },
+        { property: 'og:title', content: 'Cereus Creative - Jouw Partner in Webdesign & Branding' },
+        { property: 'og:description', content: 'Cereus helpt bedrijven met unieke visuele identiteiten en op maat gemaakte websites.' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://www.cereuscreative.be/' },
+        { property: 'og:image', content: 'https://www.cereuscreative.be/og-image.jpg' },
       ],
     });
   },

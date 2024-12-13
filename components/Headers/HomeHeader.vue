@@ -10,10 +10,9 @@
     <div class="flex flex-col justify-center items-center p-4 sm:p-10 lg:p-10">
       <h1
         data-aos="fade-up"
-        class="text-4xl font-normal sm:text-4xl lg:text-7xl text-maingreen"
+        class="text-4xl font-semibold sm:text-4xl lg:text-7xl text-maingreen"
       >
-        Welkom bij <br />
-        <span class="font-semibold italic">Cereus Creative!</span>
+        Cereus Creative
       </h1>
       <p
         data-aos="fade-up"
