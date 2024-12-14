@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'nl',
       },
-      titleTemplate: '%s - Cereus Creative',
+      titleTemplate: '%s | Cereus Creative',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
